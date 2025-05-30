@@ -1,0 +1,42 @@
+{
+    "footer": {
+        "route": [
+            {
+                "path": "/support/contact",
+                "title": "Contact"
+            },
+            {
+                "path": "/policy",
+                "title": "Privacy Policy"
+            },
+            {
+                "path": "/email",
+                "title": "Refusal of unauthorized e-mail collection"
+            },
+            {
+                "path": "/company/direction",
+                "title": "Direction"
+            }
+        ],
+        "address": [
+            {
+                "name": "HeadQuarters",
+                "address": "#108, 10 Jeongiui-gil, Seongsan-gu, Changwon-si, Gyeongsangnam-do"
+            },
+            {
+                "name": "Research Institute",
+                "address": "105, Jungang-daero, Seongsan-gu, Changwon-si, Gyeongsangnam-do, Republic of Korea(18th Floor, STX Ocean Tower)"
+            }
+        ],
+        "link": [
+            {
+                "name": "Related Sites",
+                "url": ""
+            },
+            {
+                "name": "Dassault Systèmes",
+                "url": "https://www.3ds.com/"
+            }
+        ]
+    }
+}

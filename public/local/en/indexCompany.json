@@ -1,0 +1,31 @@
+{
+    "indexCompany": {
+        "title": "About Dinsight",
+        "context": "Dinsight is a research institute company established within a research and development special zone, providing tailored solutions for corporate innovation and growth. Leveraging digital twin solutions and AI technology, Dinsight specializes in 3D modeling, XR content creation, simulation, and systems engineering.",
+        "companyBox": {
+            "title": "Company",
+            "context": "The Insight is advancing the digital transformation of enterprises in the Gyeongnam region.",
+            "path": "/company"
+        },
+        "historyBox": {
+            "title": "History",
+            "context": "2020 Company incorporation",
+            "path": "/company/history"
+        },
+        "technicalBox": {
+            "title": "Technical",
+            "context": "Patents and Certifications",
+            "path": "/tech/certificate"
+        },
+        "referenceBox": {
+            "title": "Reference",
+            "context": "Solutions related materials",
+            "path": "/support/resource"
+        },
+        "directionsBox": {
+            "title": "Directions",
+            "context": "Information of 1 branch",
+            "path": "/company/direction"
+        }
+    }
+}

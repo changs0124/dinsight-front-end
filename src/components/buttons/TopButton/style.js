@@ -1,0 +1,30 @@
+import { css } from "@emotion/react";
+import { scrollUp } from "../../../styles/keyframes";
+
+export const layout = css`
+    box-sizing: border-box;
+    display: flex;
+    position: fixed;
+    bottom: 70px;
+    right: 65px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-color: #0382F1;
+
+    z-index: 99;
+
+    :hover {
+        background-color: #373737;
+        & svg {
+            animation: ${scrollUp} 2s infinite;
+            color: #ffffff;
+        }
+    }
+
+    & svg {
+        font-size: 30px;
+    }
+`;

@@ -1,0 +1,87 @@
+{
+    "header": [
+        {
+            "path": "/company",
+            "title": "Company",
+            "img": "/images/banner-bg.jpg",
+            "submenu": [
+                {
+                    "path": "/company",
+                    "title": "Company"
+                },
+                {
+                    "path": "/company/history",
+                    "title": "History"
+                },
+                {
+                    "path": "/company/direction",
+                    "title": "Direction"
+                }
+            ]
+        },
+        {
+            "path": "/solution/3dmodel",
+            "title": "Solution",
+            "img": "/images/banner-bg02.jpg",
+            "submenu": [
+                {
+                    "path": "/solution/3dmodel",
+                    "title": "3D Modeling"
+                },
+                {
+                    "path": "/solution/motion",
+                    "title": "Motion Simulation"
+                },
+                {
+                    "path": "/solution/virtual",
+                    "title": "Virtual Reality Contents"
+                },
+                {
+                    "path": "/solution/sys",
+                    "title": "System Engineering"
+                },
+                {
+                    "path": "/solution/ai",
+                    "title": "AI Solution"
+                }
+            ]
+        },
+        {
+            "path": "/tech/certificate",
+            "title": "Technical",
+            "img": "/images/banner-bg03.jpg",
+            "submenu": [
+                {
+                    "path": "/tech/certificate",
+                    "title": "Patents and Certifacations"
+                }
+            ]
+        },
+        {
+            "path": "/business/performance",
+            "title": "Business",
+            "img": "/images/banner-bg04.jpg",
+            "submenu": [
+                {
+                    "path": "/business/performance",
+                    "title": "Performance"
+                }
+            ]
+        },
+        {
+            "path": "/support/resource",
+            "title": "Support",
+            "img": "/images/banner-bg05.jpg",
+            "submenu": [
+                {
+                    "path": "/support/resource",
+                    "title": "Resource"
+                },
+                {
+                    "path": "/support/contact",
+                    "title": "Contact"
+                }
+            ]
+        }
+    ]
+}

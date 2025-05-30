@@ -1,0 +1,82 @@
+{
+    "header": [
+        {
+            "path": "/company",
+            "title": "회사소개",
+            "submenu": [
+                {
+                    "path": "/company",
+                    "title": "회사소개"
+                },
+                {
+                    "path": "/company/history",
+                    "title": "연혁"
+                },
+                {
+                    "path": "/company/direction",
+                    "title": "오시는 길"
+                }
+            ]
+        },
+        {
+            "path": "/solution",
+            "title": "솔루션",
+            "submenu": [
+                {
+                    "path": "/solution/3dmodel",
+                    "title": "3D Modeling"
+                },
+                {
+                    "path": "/solution/motion",
+                    "title": "동작 시뮬레이션"
+                },
+                {
+                    "path": "/solution/virtual",
+                    "title": "가상현실 컨텐츠"
+                },
+                {
+                    "path": "/solution/sys",
+                    "title": "시스템 엔지니어링"
+                },
+                {
+                    "path": "/solution/ai",
+                    "title": "AI 솔루션"
+                }
+            ]
+        },
+        {
+            "path": "/tech",
+            "title": "기술",
+            "submenu": [
+                {
+                    "path": "/tech/certificate",
+                    "title": "특허 및 인증"
+                }
+            ]
+        },
+        {
+            "path": "/business",
+            "title": "사업소개",
+            "submenu": [
+                {
+                    "path": "/business/performance",
+                    "title": "수행 사업"
+                }
+            ]
+        },
+        {
+            "path": "/support",
+            "title": "지원",
+            "submenu": [
+                {
+                    "path": "/support/resource",
+                    "title": "자료실"
+                },
+                {
+                    "path": "/support/contact",
+                    "title": "문의"
+                }
+            ]
+        }
+    ]
+}

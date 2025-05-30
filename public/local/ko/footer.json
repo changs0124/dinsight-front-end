@@ -1,0 +1,42 @@
+{
+    "footer": {
+        "route": [
+            {
+                "path": "/support/contact",
+                "title": "문의하기"
+            },
+            {
+                "path": "/policy",
+                "title": "개인정보처리방침"
+            },
+            {
+                "path": "/email",
+                "title": "이메일 무단수집거부"
+            },
+            {
+                "path": "/company/direction",
+                "title": "오시는길"
+            }
+        ],
+        "address": [
+            {
+                "name": "본사",
+                "address": "창원시특례시 성산구 중앙대로 105, STX 오션타워 18층"
+            },
+            {
+                "name": "연구소",
+                "address": "창원특례시 성산구 중앙대로 105, STX 오션타워 18층"
+            }
+        ],
+        "link": [
+            {
+                "name": "관련사이트",
+                "url": ""
+            },
+            {
+                "name": "Dassault Systèmes",
+                "url": "https://www.3ds.com/"
+            }
+        ]
+    }
+}

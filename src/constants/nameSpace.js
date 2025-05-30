@@ -1,4 +1,9 @@
 export const NAME_SPACE = [
+    "button",
     "header",
-    "footer"
+    "footer",
+    "indexSwiper",
+    "indexCompany",
+    "indexSolution",
+    "indexContact"
 ];

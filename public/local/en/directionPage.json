@@ -1,0 +1,18 @@
+{
+    "direction": [
+        {
+            "name": "Headquarters",
+            "key-location": "Location",
+            "value-location": "#108, 10 Jeongiui-gil, Seongsan-gu, Changwon-si, Gyeongsangnam-do",
+            "key-tel": "Tel",
+            "value-tel": "070-4331-8637"
+        },
+        {
+            "name": "Research Institute",
+            "key-location": "Location",
+            "value-location": "18th Floor, STX Ocean Tower, 105 Jungang-daero, Seongsan-gu, Changwon-si, Gyeongsangnam-do",
+            "key-tel": "Tel",
+            "value-tel": ""
+        }
+    ]
+}

@@ -6,7 +6,6 @@ export const layout = css`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 105px;
     padding: 0px 350px;
     width: 100%;
     background-color: #000000;

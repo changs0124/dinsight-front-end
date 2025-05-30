@@ -12,8 +12,8 @@ export const solContainer = css`
     display: flex;
     flex-direction: column;
     border-radius: 0 30px 30px 0;
-    padding: 150px;
-    width: 50%;
+    padding: 150px 100px;
+    width: 45%;
     aspect-ratio: 793 / 1084;
     background-size: cover;
     background-position: center;
@@ -81,8 +81,9 @@ export const detailContainer = css`
     flex-direction: column;
     position: relative;
     align-items: center;
-    padding: 150px;
+    padding: 150px 100px;
     width: 55%;
+
     & > h2 {
         color: #007bff;
         margin-bottom: 20px;
@@ -91,9 +92,11 @@ export const detailContainer = css`
     }
 
     & > p {
+        margin-bottom: 50px;
+        width: 100%;
         text-align: center;
-        font-size: 20px;
-        font-weight: 500;
+        line-height: 36px;
+        font-size: 21px;
     }
 `;
 

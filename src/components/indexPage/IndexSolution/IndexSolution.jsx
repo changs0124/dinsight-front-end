@@ -2,6 +2,7 @@
 import { useTranslation } from 'react-i18next';
 import * as s from './style';
 import { useState } from 'react';
+import LinkButton from '../../buttons/LinkButton/LinkButton';
 
 function IndexSolution() {
     const { t } = useTranslation("indexSolution");
@@ -33,7 +34,7 @@ function IndexSolution() {
                 <div css={s.imgBox(t("indexSolution.solutions", { returnObjects: true })[index].img)} />
                 <h2>{t("indexSolution.solutions", { returnObjects: true })[index].title}</h2>
                 <p>{t("indexSolution.solutions", { returnObjects: true })[index].context}</p>
-                {/* <LinkButton /> */}
+                <LinkButton />
             </div>
         </div>
     );

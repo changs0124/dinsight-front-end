@@ -1,0 +1,162 @@
+{
+    "historyPage": {
+        "title": "D Insight Co., Ltd. is",
+        "context": "a research institute company established in the R&D special zone that provides solutions such as\nsystem engineering, shape analysis, and cost reduction based on digital twin and AI technologies\nand has simulation process automation technology.",
+        "buttons": [
+            {
+                "id": 0,
+                "name": "2023 ~ NOW",
+                "values": [
+                    {
+                        "name": "2024",
+                        "values": [
+                            {
+                                "name": "06",
+                                "values": [
+                                    "Designated as an official education partner of Dassault Systèmes",
+                                    "Development of an AI-based simulator for design/analysis acceleration, under the supervision\nof the Ministry of Science and ICT"
+                                ]
+                            },
+                            {
+                                "name": "03",
+                                "values": [
+                                    "Development and lecturing of curriculum for Ulsan-Gyeongnam Regional Innovation Platform\nUSG Shared University (Nuclear Project Management 1, 2)"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2023",
+                        "values": [
+                            {
+                                "name": "11",
+                                "values": [
+                                    "Development and lecturing of curriculum for Ulsan-Gyeongnam Regional Innovation Platform\nUSG Shared University (Advanced System Engineering)"
+                                ]
+                            },
+                            {
+                                "name": "10",
+                                "values": [
+                                    "Business agreement for the 2023 Public-Private Partnership Open Innovation Support Project\n(SK Eco Plant)"
+                                ]
+                            },
+                            {
+                                "name": "09",
+                                "values": [
+                                    "Business agreement with SK Ocean Plant to establish a real-time monitoring system for\nstructures based on digital twin technology"
+                                ]
+                            },
+                            {
+                                "name": "07",
+                                "values": [
+                                    "Winner of the SK Eco Plant Optimization Solutions Competition for developing a real-time\nmonitoring system for structures based on digital twin technology"
+                                ]
+                            },
+                            {
+                                "name": "06",
+                                "values": [
+                                    "Signed a 3D modeling service contract under the 2023 Regional Industry Promotion Project"
+                                ]
+                            },
+                            {
+                                "name": "05",
+                                "values": [
+                                    "Presentation at the Gyeongnam Technopark Technology Exchange Meeting"
+                                ]
+                            },
+                            {
+                                "name": "04",
+                                "values": [
+                                    "Project for establishing an ICT digital manufacturing platform based on process simulation\ntechnology, supervised by the Ministry of Science and ICT"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "2020 ~ 2022",
+                "values": [
+                    {
+                        "name": "2022",
+                        "values": [
+                            {
+                                "name": "12",
+                                "values": [
+                                    "Lectured for the winter session of the USG Shared University under the Ulsan-Gyeongnam\nRegional Innovation Platform (Project Design I - Systems Engineering)"
+                                ]
+                            },
+                            {
+                                "name": "08",
+                                "values": [
+                                    "Provided simulation technology support for the Process Innovation Simulation Center Project"
+                                ]
+                            },
+                            {
+                                "name": "04",
+                                "values": [
+                                    "Completed a project to build a digital twin-based 3D model of a maintenance trolley,\nsupervised by the Ministry of Science and ICT"
+                                ]
+                            },
+                            {
+                                "name": "02",
+                                "values": [
+                                    "Signed a fourth-year contract for the Intelligent Urban Water Resources project, supervised\nby the Ministry of Environment"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2021",
+                        "values": [
+                            {
+                                "name": "10",
+                                "values": [
+                                    "Executed the Changwon 3D Industrial Complex Digital Platform Establishment Project"
+                                ]
+                            },
+                            {
+                                "name": "09",
+                                "values": [
+                                    "Completed a project to develop a digital twin-based key equipment simulator to reduce\noperational costs of power conversion facilities, supervised by the Ministry of Science\nand ICT"
+                                ]
+                            },
+                            {
+                                "name": "08",
+                                "values": [
+                                    "Participated in the Digital Asset Creation Project, supervised by the Ministry of Science and\nICT"
+                                ]
+                            },
+                            {
+                                "name": "07",
+                                "values": [
+                                    "Established a dedicated research department",
+                                    "Carried out a project to create a 3D virtual reality simulator for wind turbine systems based on\ndigital twin technology, supervised by the Ministry of Science and ICT"
+                                ]
+                            },
+                            {
+                                "name": "06",
+                                "values": [
+                                    "Signed a third-year contract for the Intelligent Urban Water Resources project, supervised by\nthe Ministry of Environment",
+                                    "Conducted SPDM development for the Korea Electrotechnology Research Institute"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2020",
+                        "values": [
+                            {
+                                "name": "11",
+                                "values": [
+                                    "Established as a corporate research institute"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

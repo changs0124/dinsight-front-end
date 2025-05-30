@@ -3,7 +3,7 @@
         {
             "path": "/company",
             "title": "Company",
-            "img": "/images/banner-bg.jpg",
+            "img": "/images/commonPage/banner-bg.jpg",
             "submenu": [
                 {
                     "path": "/company",
@@ -22,7 +22,7 @@
         {
             "path": "/solution/3dmodel",
             "title": "Solution",
-            "img": "/images/banner-bg02.jpg",
+            "img": "/images/commonPage/banner-bg02.jpg",
             "submenu": [
                 {
                     "path": "/solution/3dmodel",
@@ -49,7 +49,7 @@
         {
             "path": "/tech/certificate",
             "title": "Technical",
-            "img": "/images/banner-bg03.jpg",
+            "img": "/images/commonPage/banner-bg03.jpg",
             "submenu": [
                 {
                     "path": "/tech/certificate",
@@ -60,7 +60,7 @@
         {
             "path": "/business/performance",
             "title": "Business",
-            "img": "/images/banner-bg04.jpg",
+            "img": "/images/commonPage/banner-bg04.jpg",
             "submenu": [
                 {
                     "path": "/business/performance",
@@ -71,7 +71,7 @@
         {
             "path": "/support/resource",
             "title": "Support",
-            "img": "/images/banner-bg05.jpg",
+            "img": "/images/commonPage/banner-bg05.jpg",
             "submenu": [
                 {
                     "path": "/support/resource",

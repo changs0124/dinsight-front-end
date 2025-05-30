@@ -3,6 +3,7 @@
         {
             "path": "/company",
             "title": "회사소개",
+            "img": "/images/commonPage/banner-bg.jpg",
             "submenu": [
                 {
                     "path": "/company",
@@ -21,6 +22,7 @@
         {
             "path": "/solution",
             "title": "솔루션",
+            "img": "/images/commonPage/banner-bg02.jpg",
             "submenu": [
                 {
                     "path": "/solution/3dmodel",
@@ -47,6 +49,7 @@
         {
             "path": "/tech",
             "title": "기술",
+            "img": "/images/commonPage/banner-bg03.jpg",
             "submenu": [
                 {
                     "path": "/tech/certificate",
@@ -57,6 +60,7 @@
         {
             "path": "/business",
             "title": "사업소개",
+            "img": "/images/commonPage/banner-bg04.jpg",
             "submenu": [
                 {
                     "path": "/business/performance",
@@ -67,6 +71,7 @@
         {
             "path": "/support",
             "title": "지원",
+            "img": "/images/commonPage/banner-bg05.jpg",
             "submenu": [
                 {
                     "path": "/support/resource",

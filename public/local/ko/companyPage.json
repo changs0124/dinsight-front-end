@@ -1,0 +1,48 @@
+{
+    "companyPage": {
+        "company": {
+            "title": "Through various government-related tasks,",
+            "context": "디지털 토탈 솔루션 전문기업으로 성장하기 위해 여러 정부과제를 통해 경남지역 기업들의 디지털 트랜스포메이션 촉진제 역할을 수행하고 있습니다."
+        },
+        "solution": {
+            "title": "디지털트윈 솔루션, 시스템 엔지니어링, AI 솔루션 제공",
+            "context": "업무의 효율화, 안전사고 방지, 가상제품 제작, 디지털 전시장 등의 솔루션을 제공함으로써 고객에게 최고의 가치를 제공합니다."
+        },
+        "info": [
+            {
+                "name": "회사명",
+                "value": "주식회사 디인사이트",
+                "img": "/images/company-ico01.png"
+            },
+            {
+                "name": "대표이사",
+                "value": "조재상",
+                "img": "/images/company-ico02.png"
+            },
+            {
+                "name": "설립일",
+                "value": "2020년 11월 27일",
+                "img": "/images/company-ico03.png"
+            },
+            {
+                "name": "종업원수",
+                "value": "5명",
+                "img": "/images/company-ico04.png"
+            },
+            {
+                "name": "주요생산품",
+                "value": "디지털트윈, 시스템 엔지니어링, AI 솔루션",
+                "img": "/images/company-ico05.png"
+            },
+            {
+                "name": "소재지",
+                "value": "국내 1개",
+                "img": "/images/company-ico06.png"
+            }
+        ],
+        "ideology": {
+            "title": "경영이념",
+            "img": "/images/company-img03.png"
+        }
+    }
+}

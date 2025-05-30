@@ -1,0 +1,18 @@
+{
+    "direction": [
+        {
+            "name": "본사",
+            "key-location": "주소",
+            "value-location": "#108, 10 Jeongiui-gil, Seongsan-gu, Changwon-si, Gyeongsangnam-do",
+            "key-tel": "대표전화",
+            "value-tel": "070-4331-8637"
+        },
+        {
+            "name": "연구소",
+            "key-location": "주소",
+            "value-location": "창원시특례시 성산구 중앙대로 105, STX 오션타워 18층",
+            "key-tel": "대표전화",
+            "value-tel": ""
+        }
+    ]
+}

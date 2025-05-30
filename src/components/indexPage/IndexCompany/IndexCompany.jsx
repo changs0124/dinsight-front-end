@@ -19,49 +19,25 @@ function IndexCompany() {
                         <p>{t("indexCompany.companyBox.context")}</p>
                     </div>
                     <div css={s.ectBox}>
-                        <div css={s.ectItem("/images/indexPage/indexCompany/about02_on.png", "/images/indexPage/indexCompany/about02_off.png")} onClick={() => window.location.href = t("indexContext.historyBox.path")}>
+                        <div css={s.ectItem("/images/indexPage/indexCompany/about02_on.png", "/images/indexPage/indexCompany/about02_off.png")} onClick={() => window.location.href = t("indexCompany.historyBox.path")}>
                             <div />
                             <h2>{t("indexCompany.historyBox.title")}</h2>
-                            {
-                                t("indexCompany.historyBox.context").split('\n').map((text, idx) => (
-                                    <p key={idx}>
-                                        {text}
-                                    </p>
-                                ))
-                            }
+                            <p>{t("indexCompany.historyBox.context")}</p>
                         </div>
-                        <div css={s.ectItem("/images/indexPage/indexCompany/about03_on.png", "/images/indexPage/indexCompany/about03_off.png")} onClick={() => window.location.href = t("indexContext.technicalBox.path")}>
+                        <div css={s.ectItem("/images/indexPage/indexCompany/about03_on.png", "/images/indexPage/indexCompany/about03_off.png")} onClick={() => window.location.href = t("indexCompany.technicalBox.path")}>
                             <div />
                             <h2>{t("indexCompany.technicalBox.title")}</h2>
-                            {
-                                t("indexCompany.technicalBox.context").split('\n').map((text, idx) => (
-                                    <p key={idx}>
-                                        {text}
-                                    </p>
-                                ))
-                            }
+                            <p>{t("indexCompany.technicalBox.context")}</p>
                         </div>
-                        <div css={s.ectItem("/images/indexPage/indexCompany/about04_on.png", "/images/indexPage/indexCompany/about04_off.png")} onClick={() => window.location.href = t("indexContext.referenceBox.path")}>
+                        <div css={s.ectItem("/images/indexPage/indexCompany/about04_on.png", "/images/indexPage/indexCompany/about04_off.png")} onClick={() => window.location.href = t("indexCompany.referenceBox.path")}>
                             <div />
                             <h2>{t("indexCompany.referenceBox.title")}</h2>
-                            {
-                                t("indexCompany.referenceBox.context").split('\n').map((text, idx) => (
-                                    <p key={idx}>
-                                        {text}
-                                    </p>
-                                ))
-                            }
+                            <p>{t("indexCompany.referenceBox.context")}</p>
                         </div>
-                        <div css={s.ectItem("/images/indexPage/indexCompany/about05_on.png", "/images/indexPage/indexCompany/about05_off.png")} onClick={() => window.location.href = t("indexContext.directionsBox.path")}>
+                        <div css={s.ectItem("/images/indexPage/indexCompany/about05_on.png", "/images/indexPage/indexCompany/about05_off.png")} onClick={() => window.location.href = t("indexCompany.directionsBox.path")}>
                             <div />
                             <h2>{t("indexCompany.directionsBox.title")}</h2>
-                            {
-                                t("indexCompany.directionsBox.context").split('\n').map((text, idx) => (
-                                    <p key={idx}>
-                                        {text}
-                                    </p>
-                                ))
-                            }
+                            <p>{t("indexCompany.directionsBox.context")}</p>
                         </div>
                     </div>
                 </div>

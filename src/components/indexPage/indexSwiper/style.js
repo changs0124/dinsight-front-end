@@ -7,19 +7,29 @@ export const layout = css`
     position: relative;
     display: flex;
     width: 100%;
-    aspect-ratio: 1920 / 973;
+    aspect-ratio: 128 / 65;
     margin-bottom: 30px;
+
+    ${media.mobile} {
+        height: 100vh;
+    }
 `;
 
 export const container = (url) =>  css`
     box-sizing: border-box;
     display: flex;
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background-image: url(${url});
     animation: ${zoomInSlow} 10s ease-in-out infinite;
+
+    ${media.mobile} {
+        min-height: 100vh;
+        animation: none;
+    }
 `;
 
 export const textBox = (idx, index) => css`
@@ -49,11 +59,29 @@ export const textBox = (idx, index) => css`
     }
 
     & > p {
-        animation: ${idx === index && slideUpP} 1s ease-out 0.5s forwards;
+        box-sizing: border-box;
+        margin-top: 20px;
         line-height: 40px;
         color: #ffffff;
         font-size: 24px;
-        margin-top: 20px;
+        animation: ${idx === index && slideUpP} 1s ease-out 0.5s forwards;
         opacity: 0;
+    }
+
+    ${media.mobile} {
+        top: 35%;
+        left: 2%;
+
+        & > h2 {
+            width: 100%;
+            line-height: 40px;
+            font-size: 38px;
+        }
+
+        & > p {
+            width: 90%;
+            line-height: 32px;
+            font-size: 17px;
+        }
     }
 `;

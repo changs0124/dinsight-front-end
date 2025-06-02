@@ -5,27 +5,37 @@
         "companyBox": {
             "title": "Company",
             "context": "The Insight is advancing the digital transformation of enterprises in the Gyeongnam region.",
-            "path": "/company"
+            "path": "/company",
+            "onImg": "/images/indexPage/indexCompany/about0_on.png",
+            "offImg": "/images/indexPage/indexCompany/about0_off.png"
         },
         "historyBox": {
             "title": "History",
             "context": "2020 Company incorporation",
-            "path": "/company/history"
+            "path": "/company/history",
+            "onImg": "/images/indexPage/indexCompany/about02_on.png",
+            "offImg": "/images/indexPage/indexCompany/about02_off.png"
         },
         "technicalBox": {
             "title": "Technical",
             "context": "Patents and Certifications",
-            "path": "/tech/certificate"
+            "path": "/tech/certificate",
+            "onImg": "/images/indexPage/indexCompany/about03_on.png",
+            "offImg": "/images/indexPage/indexCompany/about03_off.png"
         },
         "referenceBox": {
             "title": "Reference",
             "context": "Solutions related materials",
-            "path": "/support/resource"
+            "path": "/support/resource",
+            "onImg": "/images/indexPage/indexCompany/about04_on.png",
+            "offImg": "/images/indexPage/indexCompany/about04_off.png"
         },
         "directionsBox": {
             "title": "Directions",
             "context": "Information of 1 branch",
-            "path": "/company/direction"
+            "path": "/company/direction",
+            "onImg": "/images/indexPage/indexCompany/about05_on.png",
+            "offImg": "/images/indexPage/indexCompany/about05_off.png"
         }
     }
 }

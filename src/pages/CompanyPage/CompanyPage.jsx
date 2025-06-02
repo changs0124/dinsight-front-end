@@ -5,6 +5,7 @@ import CommonHeader from '../../components/commonPage/CommonHeader/CommonHeader'
 import { useTranslation } from 'react-i18next';
 import CommonSelect from '../../components/commonPage/CommonSelect/CommonSelect';
 import { Outlet } from 'react-router-dom';
+import CommonTitle from '../../components/commonPage/CommonTitle/CommonTitle';
 
 function CompanyPage() {
     const { t } = useTranslation("header");
@@ -13,12 +14,6 @@ function CompanyPage() {
         <Layout>
             <CommonHeader title={t("header.0.title")} img={t("header.0.img")} />
             <CommonSelect title={t("header.0.title")} />
-            <div css={s.layout}>
-                <div css={s.container}>
-                    <h2>{t("header.0.title")}</h2>
-                    <img src={"/images/companyPage/logo2.svg"} alt="" />
-                </div>
-            </div>
             <Outlet />
         </Layout>
     );

@@ -12,37 +12,37 @@
             {
                 "name": "회사명",
                 "value": "주식회사 디인사이트",
-                "img": "/images/company-ico01.png"
+                "img": "/images/companyPage/company-ico01.png"
             },
             {
                 "name": "대표이사",
                 "value": "조재상",
-                "img": "/images/company-ico02.png"
+                "img": "/images/companyPage/company-ico02.png"
             },
             {
                 "name": "설립일",
                 "value": "2020년 11월 27일",
-                "img": "/images/company-ico03.png"
+                "img": "/images/companyPage/company-ico03.png"
             },
             {
                 "name": "종업원수",
                 "value": "5명",
-                "img": "/images/company-ico04.png"
+                "img": "/images/companyPage/company-ico04.png"
             },
             {
                 "name": "주요생산품",
                 "value": "디지털트윈, 시스템 엔지니어링, AI 솔루션",
-                "img": "/images/company-ico05.png"
+                "img": "/images/companyPage/company-ico05.png"
             },
             {
                 "name": "소재지",
                 "value": "국내 1개",
-                "img": "/images/company-ico06.png"
+                "img": "/images/companyPage/company-ico06.png"
             }
         ],
         "ideology": {
             "title": "경영이념",
-            "img": "/images/company-img03.png"
+            "img": "/images/companyPage/company-img03.png"
         }
     }
 }

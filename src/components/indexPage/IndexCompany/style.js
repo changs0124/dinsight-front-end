@@ -5,16 +5,18 @@ import { media } from "../../../styles/breakpoints";
 export const layout = css`
     box-sizing: border-box;
     display: flex;
-    padding: 0px 210px;
+    padding: 180px 210px 200px;
     width: 100%;
+
+    ${media.mobile} {
+        padding: 80px 20px;
+    }
 `;
 
 export const container = css`
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding-top: 180px;
-    padding-bottom: 200px;
     width: 100%;
 `;
 
@@ -39,6 +41,22 @@ export const header = css`
         width: 56%;
         font-size: 24px;
     }
+
+    ${media.mobile} {
+        margin-bottom: 20px;
+
+        & > h2 {
+            margin-bottom: 15px;
+            line-height: 60px;
+            font-size: 33px;
+        }
+
+        & > p {
+            width: 100%;
+            line-height: 20px;
+            font-size: 16px;
+        }
+    }
 `;
 
 export const body = css`
@@ -46,9 +64,13 @@ export const body = css`
     display: flex;
     justify-content: space-between;
     width: 100%;
+
+    ${media.mobile} {
+        flex-direction: column;
+    }
 `;
 
-export const companyBox = css`
+export const companyBox = (on, off) => css`
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -68,26 +90,25 @@ export const companyBox = css`
     cursor: pointer;
 
     :hover {
-       border-color: #007bff; 
+       border-color: #007bff;
 
-       & > div {
-            background-size: cover;
-            background-position: center;
-            background-image: url("/images/indexPage/indexCompany/about0_on.png");
-       }
+        & > div {
+            background-image: url(${on});
+        }
     }
 
     & > div {
         box-sizing: border-box;
         display: flex;
         position: absolute;
-        right: 55px;
-        width: 100px;
-        height: 100px;
+        right: 30px;
+        width: 112px;
+        aspect-ratio: 1 / 1;
         background-size: cover;
         background-position: center;
-        background-image: url("/images/indexPage/indexCompany/about0_off.png");
-        z-index: 99;
+        background-repeat: no-repeat;
+        background-image: url(${off});
+        z-index: 96;
         cursor: pointer;
     }
 
@@ -111,6 +132,28 @@ export const companyBox = css`
         font-size: 30px;
         cursor: pointer;
     }
+
+    ${media.mobile} {
+        margin-bottom: 20px;
+        padding: 30px;
+        width: 100%;
+
+        & > div {
+            left: 30px;
+            bottom: 30px;
+        }
+
+        & > h2 {
+            line-height: 25px;
+            font-size: 19px;
+        }
+
+        & > p {
+            width: 100%;
+            line-height: 25px;
+            font-size: 15px;
+        }
+    }
 `;
 
 export const ectBox = css`
@@ -119,6 +162,12 @@ export const ectBox = css`
     grid-template-columns: repeat(2, calc(50% - 10px));
     width: 55%;
     gap: 20px;
+
+    ${media.mobile} {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 `;
 
 export const ectItem = (on, off) => css`
@@ -129,33 +178,24 @@ export const ectItem = (on, off) => css`
     border: 4px solid transparent;
     border-radius: 30px;
     padding: 25px;
+    width: 100%;
     box-shadow: 0 4px 10px #dbdbdb;
     transition: border-color 0.8s ease;
     cursor: pointer;
-
-    &:hover {
-       border-color: #007bff;
-        
-       & > div {
-            background-size: cover;
-            background-position: center;
-            background-image: url(${on});
-       }
-       
-    }
 
     & > div {
         box-sizing: border-box;
         display: flex;
         position: absolute;
-        bottom: 55px;
-        right: 45px;
-        width: 100px;
-        height: 100px;
+        right: 30px;
+        bottom: 30px;
+        width: 112px;
+        aspect-ratio: 1 / 1;
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
         background-image: url(${off});
-        z-index: 96;
+        z-index: 99;
         cursor: pointer;
     }
 
@@ -170,5 +210,33 @@ export const ectItem = (on, off) => css`
         line-height: 30px;
         font-size: 20px;
         cursor: pointer;
+    }
+
+    &:hover {
+       border-color: #007bff;
+        
+        & > div {
+            background-image: url(${on});
+        }
+    }
+
+    ${media.mobile} {
+        padding: 30px 20px;
+
+        & > div {
+            right: 10px;
+            bottom: 10px;
+            width: 80px;
+            aspect-ratio: 1 / 1;
+        }
+        & > h2 {
+            line-height: 25px;
+            font-size: 19px;
+        }
+
+        & > p {
+            line-height: 25px;
+            font-size: 15px;
+        }
     }
 `;

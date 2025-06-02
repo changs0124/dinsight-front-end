@@ -128,7 +128,7 @@ export const lanBox = (lan, isOpen) => css`
             margin-left: 15px;
 
             color: ${isOpen ? "#0382f1" : "#000000"};
-            font-size: 35px;
+            font-size: 40px;
             animation: ${fadeIn} 0.3s ease forwards;
             cursor: pointer;
         }

@@ -4,7 +4,7 @@
             "title": "Through various government-related tasks,",
             "context": "Dinsight Co., Ltd. serves as a catalyst for digital transformation among companies in the Gyeongnam region through various government projects, aiming to grow into a specialized digital total solutions provider."
         },
-        "soluition": {
+        "solution": {
             "title": "Providing digital twin solutions, systems engineering, and AI solutions",
             "context": "By providing solutions for work efficiency, accident prevention, virtual product creation, and digital showrooms, we deliver the highest value to our customers."
         },
@@ -12,37 +12,37 @@
             {
                 "name": "Company Name",
                 "value": "D Insight Co., Ltd",
-                "img": "/images/company-ico01.png"
+                "img": "/images/companyPage/company-ico01.png"
             },
             {
                 "name": "CEO",
                 "value": "Cho Jaesang",
-                "img": "/images/company-ico02.png"
+                "img": "/images/companyPage/company-ico02.png"
             },
             {
                 "name": "Establishment Date",
                 "value": "November 27, 2020",
-                "img": "/images/company-ico03.png"
+                "img": "/images/companyPage/company-ico03.png"
             },
             {
                 "name": "Employees",
                 "value": "5",
-                "img": "/images/company-ico04.png"
+                "img": "/images/companyPage/company-ico04.png"
             },
             {
                 "name": "Main Products",
                 "value": "Digital twin, systems engineering, AI solutions",
-                "img": "/images/company-ico05.png"
+                "img": "/images/companyPage/company-ico05.png"
             },
             {
                 "name": "Branches",
                 "value": "1 location in Korea",
-                "img": "/images/company-ico06.png"
+                "img": "/images/companyPage/company-ico06.png"
             }
         ],
         "ideology": {
             "title": "Management Philosophy",
-            "img": "/images/company-img03-eng.png"
+            "img": "/images/companyPage/company-img03-eng.png"
         }
     }
 }

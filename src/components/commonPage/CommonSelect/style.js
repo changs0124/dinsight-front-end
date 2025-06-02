@@ -1,4 +1,5 @@
 import { css } from "@emotion/react";
+import { media } from "../../../styles/breakpoints";
 
 export const layout = css`
     box-sizing: border-box;
@@ -8,6 +9,10 @@ export const layout = css`
     border-bottom: 1px solid #dbdbdb;
     padding: 10px 250px;
     width: 100%;
+
+    ${media.mobile} {
+        display: none;
+    }
 `;
 
 export const container = css`
@@ -18,9 +23,7 @@ export const container = css`
 
     & > svg {
         margin-right: 20px;
-        
         font-size: 35px;
-
         cursor: pointer;
     }
 
@@ -45,7 +48,6 @@ export const selectBox = (isShow) => css`
         right: 10px;
         transform: rotate(${isShow ? '180deg' : '0deg'});
         transition: transform 0.3s ease;
-
         font-size: 20px;
     }
 

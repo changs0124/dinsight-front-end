@@ -1,5 +1,6 @@
 import { css } from "@emotion/react";
 import { zoomInSlow } from "../../../styles/keyframes";
+import { media } from "../../../styles/breakpoints";
 
 export const layout = (url) => css`
     box-sizing: border-box;
@@ -33,6 +34,22 @@ export const layout = (url) => css`
         font-weight: 600;
 
         z-index: 96;
+    }
+
+    ${media.mobile} {
+        height: 375px;
+        animation: none;
+
+        & > h2 {
+            line-height: 80px;
+            font-size: 36px;
+            font-weight: 500;
+        }
+
+        & > p {
+            line-height: 0px;
+            font-size: 15px;
+        }
     }
 `;
 

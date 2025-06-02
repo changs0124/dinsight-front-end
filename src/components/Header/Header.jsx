@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { slideDown, slideUp } from '../../styles/keyframes';
 import { HiBars3, HiOutlineXMark } from "react-icons/hi2";
+import TopBar from '../TopBar/TopBar';
 
 function Header() {
     const nav = useNavigate();
@@ -19,9 +20,9 @@ function Header() {
     const [ani, setAni] = useState(slideDown)
 
     useEffect(() => {
-        const lan = localStorage.getItem("i18nLng");
+        const lan = localStorage.getItem("i18nextLng");
         if (!lan) {
-            localStorage.setItem("i18nLng", "ko");
+            localStorage.setItem("i18nextLng", "ko");
             i18n.changeLanguage("ko")
         } else {
             i18n.changeLanguage(lan);
@@ -99,6 +100,9 @@ function Header() {
                         ))
                     }
                 </div>
+            }{
+                isOpen &&
+                <TopBar ani={ani}/>
             }
         </div>
     );

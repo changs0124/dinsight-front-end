@@ -12,27 +12,50 @@ export const zoomInSlow = keyframes`
     }
 `;
 
-// Header Animation
-export const slideDown = keyframes`
+// TopBar
+export const subMenuSlideDown = keyframes`
     from {
-        transform: translateY(0px);
+        transform: scaleY(0);
         opacity: 0;
     }
     to {
-        transform: translateY(105px);
+        transform: scaleY(1);
         opacity: 1;
     }
 `;
 
-export const slideUp = keyframes`
+export const subMenuSlideUp = keyframes`
     from {
-        transform: translateY(105px);
+        transform: scaleY(1);
         opacity: 1;
     }
     to {
-        transform: translateY(0px);
+        transform: scaleY(0);
         opacity: 0;
     }
+`;
+
+// Header Animation
+export const slideDown = keyframes`
+  0% {
+    transform: translateY(-105px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+`;
+
+export const slideUp = keyframes`
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-105px);
+    opacity: 0;
+  }
 `;
 
 export const fadeIn = keyframes`

@@ -1,5 +1,6 @@
 import { css } from "@emotion/react";
 import { scrollUp } from "../../../styles/keyframes";
+import { media } from "../../../styles/breakpoints";
 
 export const layout = css`
     box-sizing: border-box;
@@ -13,7 +14,6 @@ export const layout = css`
     width: 55px;
     height: 55px;
     background-color: #0382F1;
-
     z-index: 99;
 
     :hover {
@@ -26,5 +26,15 @@ export const layout = css`
 
     & svg {
         font-size: 30px;
+    }
+
+    ${media.mobile} {
+        width: 45px;
+        height: 45px;
+        right: 20px;
+
+        & svg {
+            font-size: 20px;
+        }
     }
 `;

@@ -12,6 +12,10 @@ export const layout = css`
     ${media.tablet} {
         padding: 180px 70px 200px;
     }
+
+    ${media.mobile} {
+        padding: 80px 20px;
+    }
 `;
 
 export const container = css`
@@ -48,6 +52,22 @@ export const container = css`
         color: #ffffff;
         font-size: 24px;
     }
+
+    ${media.mobile} {
+        padding: 35px 10px;
+
+        & > h2 {
+            line-height: 60px;
+            font-size: 33px;
+        }
+
+        & p {
+            margin-bottom: 20px;
+            width: 100%;
+            line-height: 23px;
+            font-size: 15px;
+        }
+    }
 `;
 
 export const buttonBox = css`
@@ -61,7 +81,7 @@ export const buttonBox = css`
     & > button {
         border: 1px solid #ffffff;
         border-radius: 30px;
-        padding: 10px 0px;
+        padding: 10px 0;
         width: 100%;
         color: #ffffff;
         font-size: 24px;
@@ -71,5 +91,14 @@ export const buttonBox = css`
             color: #007aff;
         }
 
+    }
+
+    ${media.mobile} {
+        width: 40%;
+
+        & > button {
+            padding: 5px 0;
+            font-size: 18px;
+        }
     }
 `;

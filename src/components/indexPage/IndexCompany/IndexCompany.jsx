@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 function IndexCompany() {
     const { t } = useTranslation("indexCompany")
-
+    console.log(t("indexCompany.historyBox.onImg"))
     return (
         <div css={s.layout}>
             <div css={s.container}>
@@ -13,28 +13,28 @@ function IndexCompany() {
                     <p>{t("indexCompany.context")}</p>
                 </div>
                 <div css={s.body}>
-                    <div css={s.companyBox} onClick={() => window.location.href = t("indexCompany.companyBox.path")}>
-                        <div></div>
+                    <div css={s.companyBox(t("indexCompany.companyBox.onImg"), t("indexCompany.companyBox.offImg"))} onClick={() => window.location.href = t("indexCompany.companyBox.path")}>
+                        <div />
                         <h2>{t("indexCompany.companyBox.title")}</h2>
                         <p>{t("indexCompany.companyBox.context")}</p>
                     </div>
                     <div css={s.ectBox}>
-                        <div css={s.ectItem("/images/indexPage/indexCompany/about02_on.png", "/images/indexPage/indexCompany/about02_off.png")} onClick={() => window.location.href = t("indexCompany.historyBox.path")}>
+                        <div css={s.ectItem(t("indexCompany.historyBox.onImg"), t("indexCompany.historyBox.offImg"))}>
                             <div />
                             <h2>{t("indexCompany.historyBox.title")}</h2>
                             <p>{t("indexCompany.historyBox.context")}</p>
                         </div>
-                        <div css={s.ectItem("/images/indexPage/indexCompany/about03_on.png", "/images/indexPage/indexCompany/about03_off.png")} onClick={() => window.location.href = t("indexCompany.technicalBox.path")}>
+                        <div css={s.ectItem(t("indexCompany.technicalBox.onImg"), t("indexCompany.technicalBox.offImg"))}>
                             <div />
                             <h2>{t("indexCompany.technicalBox.title")}</h2>
                             <p>{t("indexCompany.technicalBox.context")}</p>
                         </div>
-                        <div css={s.ectItem("/images/indexPage/indexCompany/about04_on.png", "/images/indexPage/indexCompany/about04_off.png")} onClick={() => window.location.href = t("indexCompany.referenceBox.path")}>
+                        <div css={s.ectItem(t("indexCompany.referenceBox.onImg"), t("indexCompany.referenceBox.offImg"))}>
                             <div />
                             <h2>{t("indexCompany.referenceBox.title")}</h2>
                             <p>{t("indexCompany.referenceBox.context")}</p>
                         </div>
-                        <div css={s.ectItem("/images/indexPage/indexCompany/about05_on.png", "/images/indexPage/indexCompany/about05_off.png")} onClick={() => window.location.href = t("indexCompany.directionsBox.path")}>
+                        <div css={s.ectItem(t("indexCompany.directionsBox.onImg"), t("indexCompany.directionsBox.offImg"))}>
                             <div />
                             <h2>{t("indexCompany.directionsBox.title")}</h2>
                             <p>{t("indexCompany.directionsBox.context")}</p>

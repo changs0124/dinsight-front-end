@@ -5,5 +5,6 @@ export const NAME_SPACE = [
     "indexSwiper",
     "indexCompany",
     "indexSolution",
-    "indexContact"
+    "indexContact",
+    "companyPage"
 ];

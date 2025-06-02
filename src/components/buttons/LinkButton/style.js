@@ -1,5 +1,6 @@
 import { css } from "@emotion/react";
 import { moveToLeftAndRight } from "../../../styles/keyframes";
+import { media } from "../../../styles/breakpoints";
 
 export const layout = css`
     box-sizing: border-box;
@@ -29,5 +30,13 @@ export const layout = css`
 
     & svg {
         font-size: 30px;
+    }
+
+    ${media.mobile} {
+        width: 50%;
+
+        & > button {
+            font-size: 17px; 
+        }
     }
 `;

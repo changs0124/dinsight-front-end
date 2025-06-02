@@ -1,0 +1,26 @@
+{
+    "Model": {
+        "first-title": "Supplying engineers with high-precision 3D models created with CATIA and 2D drawings is a feasible way of enhancing their comprehension and data reuse.",
+        "first-context": "CATIA has been prominent as a global CAD/CAM/CAE solution for the past two decades. Digital Mockup, Digital Manufacturing, and Web Engineering make possible the creation, analysis, and processing of products, as well as company-wide cooperation",
+        "details": [
+            {
+                "title": "Designer",
+                "context": "Meeting the demands of diverse product designers ranging from industrial design to Class A by providing solutions capable of producing any complicated shapes."
+            },
+            {
+                "title": "Engineers",
+                "context": "Enables engineers to create any type of 3D assembly, for a wide range of engineering processes."
+            },
+            {
+                "title": "System Architecture",
+                "context": "Supporting product complexity management by delivering a fully integrated architecture, modeling, and simulation solutions for systems and products"
+            },
+            {
+                "title": "System Engineers",
+                "context": "Providing system engineers with an integrated system modeling environment to maximize the value of the system and product assembly motion simulation"
+            }
+        ],
+        "second-title": "We provide a rendering solution that may bring a model closer to reality by applying material/texture and light source effects to high-precision 3D models created with CATIA in Unreal.",
+        "second-context": "Realistic models can be created by importing 3D CAD-designed files into Unreal and applying material and texture effects."
+    }
+}

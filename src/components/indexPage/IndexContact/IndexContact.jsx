@@ -10,7 +10,7 @@ function IndexContact() {
             <div css={s.container}>
                 <h2>Contact us</h2>
                 <p>{t("indexContact.context")}</p>
-                <div css={s.buttonBox}>
+                <div css={s.buttonBox} onClick={() => window.location.href = t("indexContact.path")}>
                     <button>{t("indexContact.buttonTitle")}</button>
                 </div>
             </div>

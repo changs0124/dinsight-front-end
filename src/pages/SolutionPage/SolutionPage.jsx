@@ -1,3 +1,5 @@
+/** @jsxImportSource @emotion/react */
+import * as s from './style';
 import CommonHeader from "../../components/commonPage/CommonHeader/CommonHeader";
 import CommonSelect from "../../components/commonPage/CommonSelect/CommonSelect";
 import Layout from "../../components/Layout/Layout";

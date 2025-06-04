@@ -27,13 +27,16 @@ export const container = css`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 30px;
+        border-bottom: 1px solid #dbdbdb;
+        padding: 20px 30px;
         width: 100%;
+        font-size: 22px;
+
+        :active {
+            background-color: #cccccc;
+        }
     }
 
-    :active {
-        background-color: #cccccc;
-    }
 `;
 
 export const menuBox = css`
@@ -46,8 +49,8 @@ export const menuBox = css`
     & > p {
         padding: 20px 30px 20px 50px;
         color: #ffffff;
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 18px;
+        font-weight: 500;
     }
 
     & > :not(:nth-last-of-type(1)) {

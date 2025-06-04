@@ -7,15 +7,18 @@
             "submenu": [
                 {
                     "path": "/company",
-                    "title": "회사소개"
+                    "title": "회사소개",
+                    "submenu": []
                 },
                 {
                     "path": "/company/history",
-                    "title": "연혁"
+                    "title": "연혁",
+                    "submenu": []
                 },
                 {
                     "path": "/company/direction",
-                    "title": "오시는 길"
+                    "title": "오시는 길",
+                    "submenu": []
                 }
             ]
         },
@@ -26,23 +29,37 @@
             "submenu": [
                 {
                     "path": "/solution/3dmodel",
-                    "title": "3D Modeling"
+                    "title": "3D Modeling",
+                    "submenu": []
                 },
                 {
                     "path": "/solution/motion",
-                    "title": "동작 시뮬레이션"
+                    "title": "동작 시뮬레이션",
+                    "submenu": []
                 },
                 {
                     "path": "/solution/virtual",
-                    "title": "가상현실 컨텐츠"
+                    "title": "가상현실 컨텐츠",
+                    "submenu": []
                 },
                 {
                     "path": "/solution/sys",
-                    "title": "시스템 엔지니어링"
+                    "title": "시스템 엔지니어링",
+                    "submenu": []
                 },
                 {
                     "path": "/solution/ai",
-                    "title": "AI 솔루션"
+                    "title": "AI 솔루션",
+                    "submenu": [
+                        {
+                            "path": "/solution/ai",
+                            "title": "AI Solution"
+                        },
+                        {
+                            "path": "/solution/onepart",
+                            "title": "Exalead Onepart"
+                        }
+                    ]
                 }
             ]
         },
@@ -53,7 +70,8 @@
             "submenu": [
                 {
                     "path": "/tech/certificate",
-                    "title": "특허 및 인증"
+                    "title": "특허 및 인증",
+                    "submenu": []
                 }
             ]
         },
@@ -64,7 +82,8 @@
             "submenu": [
                 {
                     "path": "/business/performance",
-                    "title": "수행 사업"
+                    "title": "수행 사업",
+                    "submenu": []
                 }
             ]
         },
@@ -75,11 +94,13 @@
             "submenu": [
                 {
                     "path": "/support/resource",
-                    "title": "자료실"
+                    "title": "자료실",
+                    "submenu": []
                 },
                 {
                     "path": "/support/contact",
-                    "title": "문의"
+                    "title": "문의",
+                    "submenu": []
                 }
             ]
         }

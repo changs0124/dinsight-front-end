@@ -6,5 +6,10 @@ export const NAME_SPACE = [
     "indexCompany",
     "indexSolution",
     "indexContact",
-    "companyPage"
+    "companyPage",
+    "model",
+    "motion",
+    "virtual",
+    "system",
+    "ai"
 ];

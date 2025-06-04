@@ -4,10 +4,9 @@ import CommonTitle from '../../commonPage/CommonTitle/CommonTitle';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 
-function AI() {
+function Onepart() {
     const nav = useNavigate();
     const { t: tHeader } = useTranslation("header");
-    const { t: tAi} = useTranslation("ai")
 
     return (
         <div css={s.layout}>
@@ -18,13 +17,9 @@ function AI() {
                     ))
                 }
             </div>
-            <CommonTitle title={tHeader("header.1.title")} subtitle={tHeader("header.1.submenu.4.submenu.0.title")} />
-            <div css={s.titleAndContextBox}>
-                <h2>{tAi("ai.title")}</h2>
-                <p>{tAi("ai.context")}</p>
-            </div>
+            <CommonTitle title={tHeader("header.1.title")} subtitle={tHeader("header.1.submenu.4.submenu.1.title")} />
         </div>
     );
 }
 
-export default AI;
+export default Onepart;

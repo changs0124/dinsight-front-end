@@ -1,0 +1,10 @@
+{
+    "virtual": {
+        "title": "정의 된 제품 사용 절차를 준수하여 가상현실상에서 컨트롤러와 연동되는 동작을 재정의하여 제작된 VR 컨텐츠는 직원들의 가상훈련 및 홍보용 컨텐츠로 활용이 가능합니다.",
+        "context": "UNREAL을 활용한 시각화작업 완료 후 VR 기기 템플릿적용을 한 뒤 텔레포트 및 메뉴 추가 등 추가 요구기능 개발을 수행합니다. 필요시 동영상(MP4 FORAMT) 삽입이 가능하며, 프로젝트 패키징을 통해 EXE format으로 EXPORT하여 프로그램이 설치되지 않은 PC에서도 VR을 활용할 수 있는 서비스를 제공합니다.",
+        "video": [
+            "https://www.youtube.com/embed/KOiTZItibAw",
+            "https://www.youtube.com/embed/g0PGXA85qxc"
+        ]
+    }
+}

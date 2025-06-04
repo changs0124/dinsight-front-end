@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 function IndexCompany() {
     const { t } = useTranslation("indexCompany")
-    console.log(t("indexCompany.historyBox.onImg"))
+
     return (
         <div css={s.layout}>
             <div css={s.container}>

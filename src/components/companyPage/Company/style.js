@@ -30,7 +30,7 @@ export const companyBox = css`
     }
 
     ${media.mobile} {
-        padding: 30px;
+        padding: 30px 20px;
 
         & > h2 {
             margin-bottom: 15px;
@@ -69,7 +69,7 @@ export const solutiondBox = (lan) => css`
     width: 35%;
 
     & > h2 {
-        margin-bottom: 70px;
+        padding-bottom: 70px;
         width: ${lan === "ko" ? "55%" : "100%"};
         line-height: 56px;
         font-size: 36px;
@@ -88,7 +88,7 @@ export const solutiondBox = (lan) => css`
         width: 100%;
 
         & > h2 {
-            margin-bottom: 15px;
+            padding-bottom: 20px;
             width: 90%;
             line-height: 30px;
             font-size: 20px;
@@ -97,7 +97,7 @@ export const solutiondBox = (lan) => css`
 
         & > p {
             box-sizing: border-box;
-            margin-bottom: 30px;
+            padding-bottom: 30px;
             width: 100%;
             line-height: 20px;
             font-size: 16px;
@@ -110,7 +110,8 @@ export const imgBox = (url) => css`
     box-sizing: border-box;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    width: 45%;
+    padding: 70px;
+    width: 100%;
     aspect-ratio: 37 / 21;
     background-size: cover;
     background-position: center;
@@ -157,7 +158,7 @@ export const infoContainer = css`
     ${media.mobile} {
         display: flex;
         flex-direction: column;
-        padding: 20px 20px;
+        padding: 20px;
         aspect-ratio: 480 / 169;
 
         & > :nth-of-type(1) {
@@ -192,7 +193,6 @@ export const infoBox = css`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 0px;
     text-align: center;
 
     & > img {
@@ -259,8 +259,8 @@ export const ideologyBox = css`
         padding: 80px 20px 100px;
 
         & > h2 {
-            text-align: left;
             padding-bottom: 40px;
+            text-align: left;
             font-size: 24px;
         }
 

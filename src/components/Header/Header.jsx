@@ -2,14 +2,12 @@
 import * as s from './style';
 import i18n from '../../i18n';
 import { useTranslation } from 'react-i18next';
-import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { slideDown, slideUp } from '../../styles/keyframes';
 import { HiBars3, HiOutlineXMark } from "react-icons/hi2";
 import TopBar from '../TopBar/TopBar';
 
 function Header() {
-    const nav = useNavigate();
     const { t } = useTranslation("header");
 
     const [selectedHeader, setSelectedHeader] = useState("");
@@ -68,7 +66,7 @@ function Header() {
     return (
         <div css={s.layout(showShadow)}>
             <div css={s.container}>
-                <div onClick={() => nav("/")}>
+                <div onClick={() => window.location.href = "/"}>
                     <picture>
                         <source srcSet="/images/header/logo4_360.png" media="(max-width: 1024px)" />
                         <source srcSet="/images/header/logo4_770.png" media="(max-width: 640)" />
@@ -96,7 +94,7 @@ function Header() {
                 <div css={s.subMenuContainer} onMouseLeave={handleMouseLeave}>
                     {
                         (t("header", { returnObjects: true }).find(menu => menu.title === selectedHeader) ?? {}).submenu?.map((menu, idx) => (
-                            <p key={idx} onClick={() => nav(menu.path)}>{menu.title}</p>
+                            <p key={idx} onClick={() => window.location.href = menu.path}>{menu.title}</p>
                         ))
                     }
                 </div>

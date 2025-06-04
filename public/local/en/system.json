@@ -1,0 +1,13 @@
+{
+    "system": {
+        "title": "System analysis and visualization allow users to derive the optimal input/output values they want and create user-random scenarios by enabling control during simulation.",
+        "video": [
+            "https://www.youtube.com/embed/c4MrCHN8fkQ"
+        ],
+        "img": [
+            "images/solutionPage/system/system_img02.png",
+            "images/solutionPage/system/system_img03.png"
+        ]
+        
+    }
+}

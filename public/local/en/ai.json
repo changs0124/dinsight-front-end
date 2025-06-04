@@ -1,0 +1,7 @@
+{
+    "ai": {
+        "title": "Technology Overview",
+        "first-context": "AI Dimensionality Reduction Simulator : Generates output for untrained data after completing input-output learning.",
+        "second-context": "The AI simulator generally offers significantly lower simulation times compared to conventional 2D and 3D solvers, though this may vary depending on model complexity. The difference becomes even more pronounced with repeated optimization tasks."
+    }
+}

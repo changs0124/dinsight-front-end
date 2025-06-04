@@ -1,31 +1,43 @@
 /** @jsxImportSource @emotion/react */
 import * as s from './style';
 import { HiOutlineHome, HiChevronDown } from "react-icons/hi2";
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 
 function CommonSelect({ title }) {
     const nav = useNavigate();
+    const location = useLocation();
     const { t } = useTranslation("header");
 
     const [isShowMenu, setIsShowMenu] = useState(false);
-    const [isShowSubMenu, setIsShowSubMenu] = useState(false)
+    const [isShowSubMenu, setIsShowSubMenu] = useState(false);
+    const [isShowAiMenu, setIsShowAiMenu] = useState(false);
 
     const [selectedMenu, setSelectedMenu] = useState({});
     const [selectedSubMenu, setSelectedSubMenu] = useState({});
+    const [selectedAiMenu, setSelectAiMenu] = useState({});
 
     useEffect(() => {
-        setSelectedMenu(t("header", { returnObjects: true }).find(menu => menu.title === title));
-    }, [title]);
+        setSelectedMenu(t("header", { returnObjects: true })?.find(menu => menu.title === title));
+    }, [title, location.pathname]);
 
     useEffect(() => {
-        if (!!selectedMenu.title) {
-            setSelectedSubMenu(selectedMenu?.submenu[0]);
+        setSelectedSubMenu(selectedMenu?.submenu?.find(menu => window.location.pathname.split("/")[2] === (menu.path.split("/")[2])))
+    }, [selectedMenu, location.pathname])
+
+    useEffect(() => {
+        if (selectedSubMenu?.submenu?.length > 0) {
+            const currentPath = window.location.pathname;
+            const foundAiMenu = selectedSubMenu.submenu.find(menu => menu.path === currentPath);
+
+            if (foundAiMenu) {
+                setSelectAiMenu(foundAiMenu);
+            }
         }
-    }, [selectedMenu])
-
-
+    }, [selectedSubMenu, location.pathname])
+    console.log(selectedSubMenu?.path?.split("/"))
+    console.log(selectedAiMenu)
     const handleSelectMenuOnClick = (menu) => {
         setSelectedMenu(menu)
         nav(menu.path)
@@ -36,21 +48,35 @@ function CommonSelect({ title }) {
         nav(menu.path)
     }
 
+    const handleSelectAiMenuOnClick = (menu) => {
+        setSelectAiMenu(menu)
+        nav(menu.path)
+    }
+
     const handleSelectBoxOnClick = () => {
         setIsShowSubMenu(false);
+        setIsShowAiMenu(false);
         setIsShowMenu(!isShowMenu);
     }
 
     const handleSubMenuOnClcik = () => {
         setIsShowMenu(false);
+        setIsShowAiMenu(false);
         setIsShowSubMenu(!isShowSubMenu);
     }
+
+    const handleAiMenuOnClick = () => {
+        setIsShowMenu(false);
+        setIsShowSubMenu(false);
+        setIsShowAiMenu(!isShowAiMenu)
+    }
+
     return (
         <div css={s.layout}>
             <div css={s.container}>
                 <HiOutlineHome onClick={() => nav("/")} />
                 <div css={s.selectBox(isShowMenu)} onClick={handleSelectBoxOnClick}>
-                    <HiChevronDown />
+                    <HiChevronDown onClick={handleSelectBoxOnClick} />
                     <p>{selectedMenu?.title}</p>
                     <div css={s.optionBox(isShowMenu)}>
                         {
@@ -67,17 +93,35 @@ function CommonSelect({ title }) {
                 </div>
                 <div css={s.selectBox(isShowSubMenu)} onClick={handleSubMenuOnClcik}>
                     {
-                        selectedMenu.submenu?.length > 1 && <HiChevronDown />
+                        selectedMenu?.submenu?.length > 1 && <HiChevronDown onClick={handleSubMenuOnClcik} />
                     }
-                    <p>{selectedSubMenu.title}</p>
+                    <p>{selectedSubMenu?.title}</p>
                     <div css={s.optionBox(isShowSubMenu, selectedMenu?.submenu?.length)}>
                         {
                             isShowSubMenu &&
                             selectedMenu.submenu
-                                .filter(menu => menu?.title !== selectedSubMenu.title)
+                                .filter(menu => menu?.title !== selectedSubMenu?.title)
                                 .map((menu, idx) => (
                                     <p key={idx} onClick={() => handleSelectSubMenuOnClick(menu)}>
-                                        {menu.title}
+                                        {menu?.title}
+                                    </p>
+                                ))
+                        }
+                    </div>
+                </div>
+                <div css={s.selectBox(isShowAiMenu)} onClick={handleAiMenuOnClick}>
+                    {
+                        selectedSubMenu?.submenu?.length > 1 && <HiChevronDown onClick={handleAiMenuOnClick} />
+                    }
+                    <p>{selectedAiMenu?.title}</p>
+                    <div css={s.optionBox(isShowAiMenu, selectedSubMenu?.submenu?.length)}>
+                        {
+                            isShowAiMenu &&
+                            selectedSubMenu.submenu
+                                .filter(menu => menu?.title !== selectedAiMenu.title)
+                                .map((menu, idx) => (
+                                    <p key={idx} onClick={() => handleSelectAiMenuOnClick(menu)}>
+                                        {menu?.title}
                                     </p>
                                 ))
                         }

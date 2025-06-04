@@ -35,15 +35,3 @@ export const mobileSelectItem = (path, realPath) => css`
     font-size: 13px;
     font-weight: 500;
 `;
-
-export const titleAndContextBox = css`
-    box-sizing: border-box;
-    padding: 40px 350px 150px;
-
-    & > h2 {
-        padding-bottom: 45px;
-        color: #005EB0;
-        font-size: 42px;
-        font-weight: 700;
-    }
-`;

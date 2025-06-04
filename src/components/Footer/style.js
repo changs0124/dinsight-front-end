@@ -73,6 +73,16 @@ export const routeBox = css`
                 font-weight: 500;
             }
         }
+
+        & > p:not(:nth-last-of-type(1))::after {
+            content: '';
+            display: inline-block;
+            margin: 0px 15px;
+            width: 2px;
+            height: 20px;
+            background-color: #ffffff;
+            vertical-align: middle;
+        }
     }
 `;
 
@@ -100,10 +110,9 @@ export const selectBox = (isShow) => css`
         font-size: 18px;
 
         & > svg {
+            font-size: 18px;
             transform: rotate(${isShow ? '180deg' : '0deg'});
             transition: transform 0.3s ease;
-
-            font-size: 18px;
         }
     }
 
@@ -147,7 +156,7 @@ export const optionBox = (isShow) => css`
     }
 
     ${media.mobile} {
-        top: 40px;
+        top: 16px;
     }
 `;
 

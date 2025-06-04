@@ -7,15 +7,18 @@
             "submenu": [
                 {
                     "path": "/company",
-                    "title": "Company"
+                    "title": "Company",
+                    "submenu": []
                 },
                 {
                     "path": "/company/history",
-                    "title": "History"
+                    "title": "History",
+                    "submenu": []
                 },
                 {
                     "path": "/company/direction",
-                    "title": "Direction"
+                    "title": "Direction",
+                    "submenu": []
                 }
             ]
         },
@@ -26,23 +29,38 @@
             "submenu": [
                 {
                     "path": "/solution/3dmodel",
-                    "title": "3D Modeling"
+                    "title": "3D Modeling",
+                    "submenu": []
                 },
                 {
                     "path": "/solution/motion",
-                    "title": "Motion Simulation"
+                    "title": "Motion Simulation",
+                    "submenu": []
+
                 },
                 {
                     "path": "/solution/virtual",
-                    "title": "Virtual Reality Contents"
+                    "title": "Virtual Reality Contents",
+                    "submenu": []
                 },
                 {
                     "path": "/solution/sys",
-                    "title": "System Engineering"
+                    "title": "System Engineering",
+                    "submenu": []
                 },
                 {
                     "path": "/solution/ai",
-                    "title": "AI Solution"
+                    "title": "AI Solution",
+                    "submenu": [
+                        {
+                            "path": "/solution/ai",
+                            "title": "AI Solution"
+                        },
+                        {
+                            "path": "/solution/ai/onepart",
+                            "title": "Exalead Onepart"
+                        }
+                    ]
                 }
             ]
         },
@@ -53,7 +71,8 @@
             "submenu": [
                 {
                     "path": "/tech/certificate",
-                    "title": "Patents and Certifacations"
+                    "title": "Patents and Certifacations",
+                    "submenu": []
                 }
             ]
         },
@@ -64,7 +83,8 @@
             "submenu": [
                 {
                     "path": "/business/performance",
-                    "title": "Performance"
+                    "title": "Performance",
+                    "submenu": []
                 }
             ]
         },
@@ -75,11 +95,13 @@
             "submenu": [
                 {
                     "path": "/support/resource",
-                    "title": "Resource"
+                    "title": "Resource",
+                    "submenu": []
                 },
                 {
                     "path": "/support/contact",
-                    "title": "Contact"
+                    "title": "Contact",
+                    "submenu": []
                 }
             ]
         }

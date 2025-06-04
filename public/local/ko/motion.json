@@ -1,0 +1,12 @@
+{
+    "motion": {
+        "title": "실제 제품의 동작을 정의하여 시제품 제작 전 간섭/충돌 여부를 사전에 파악할 수 있으며, 비 숙련 작업 수행 시 참조 매뉴얼로 활용이 가능합니다.",
+        "context": "고정밀 3D 객체 모델링 및 렌더링이 수행된 모델을 기반으로 실제 제품의 동작 시뮬레이션을 수행하여 시제품 제작 전 간섭이나 충돌 여부를 검토할 수 있으며, 완성된 시뮬레이션은 영상으로 만들어 기술훈련이나 홍보 컨텐츠로 활용 가능합니다.",
+        "video": [
+            "https://www.youtube.com/embed/RlbtGSN1XXE",
+            "https://www.youtube.com/embed/gGO4EJ266-0",
+            "https://www.youtube.com/embed/2f3AcZ5tiEg",
+            "https://www.youtube.com/embed/JfzBzkJH3ys"
+        ]
+    }   
+}

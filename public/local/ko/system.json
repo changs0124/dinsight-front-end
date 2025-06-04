@@ -1,0 +1,13 @@
+{
+    "system": {
+        "title": "시스템 해석 및 가시화를 통해 사용자가 원하는 최적의 입력/출력값을 도출할 수 있고 시뮬레이션 중 제어를 가능케 함으로써 사용자 임의의 시나리오를 만들 수 있습니다.",
+        "video": [
+            "https://www.youtube.com/embed/c4MrCHN8fkQ"
+        ],
+        "img": [
+            "/images/solutionPage/system/system_img02.png",
+            "/images/solutionPage/system/system_img03.png"
+        ]
+        
+    }
+}

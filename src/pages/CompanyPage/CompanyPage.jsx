@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom';
 
 function CompanyPage() {
     const { t } = useTranslation("header");
-    
+
     return (
         <Layout>
             <CommonHeader title={t("header.0.title")} img={t("header.0.img")} />

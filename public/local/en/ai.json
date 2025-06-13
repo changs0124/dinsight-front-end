@@ -1,7 +1,56 @@
 {
-    "ai": {
-        "title": "Technology Overview",
-        "first-context": "AI Dimensionality Reduction Simulator : Generates output for untrained data after completing input-output learning.",
-        "second-context": "The AI simulator generally offers significantly lower simulation times compared to conventional 2D and 3D solvers, though this may vary depending on model complexity. The difference becomes even more pronounced with repeated optimization tasks."
-    }
+    "ai": [
+        {
+            "title": "Technology Overview",
+            "context": "AI Dimensionality Reduction Simulator : Generates output for untrained data after completing input-output learning.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/solutionPage/ai/sim_01_m_eng.png",
+                        "ratio": "126 / 247"
+                    },
+                    {
+                        "path": "/images/solutionPage/ai/sim_02_m_eng.png",
+                        "ratio": "63 / 128"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/solutionPage/ai/sim_01_eng.png",
+                        "ratio": "1200 / 437"
+                    },
+                    {
+                        "path": "/images/solutionPage/ai/sim_02_eng.png",
+                        "ratio": "40 / 21"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Technology Overview",
+            "context": "The AI simulator generally offers significantly lower simulation times compared to conventional 2D and 3D solvers, though this may vary depending on model complexity. The difference becomes even more pronounced with repeated optimization tasks.",
+             "img": {
+                "mobile": [
+                    {
+                        "path": "/images/solutionPage/ai/sim_03_m_eng.png",
+                        "ratio": "126 / 155"
+                    },
+                    {
+                        "path": "/images/solutionPage/ai/sim_04_m_eng.png",
+                        "ratio": "210 / 191"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/solutionPage/ai/sim_03_eng.png",
+                        "ratio": "300 / 77"
+                    },
+                    {
+                        "path": "/images/solutionPage/ai/sim_04_eng.png",
+                        "ratio": "6 / 1"
+                    }
+                ]
+            }
+        }
+    ]
 }

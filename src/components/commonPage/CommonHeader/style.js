@@ -16,7 +16,6 @@ export const layout = (url) => css`
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(${url});
-
     animation: ${zoomInSlow} 10s ease-in-out infinite;
 
     & > h2 {
@@ -51,6 +50,22 @@ export const layout = (url) => css`
             font-size: 15px;
         }
     }
+
+    ${media.mobileLandscape} {
+        height: 375px;
+        animation: none;
+
+        & > h2 {
+            line-height: 80px;
+            font-size: 36px;
+            font-weight: 500;
+        }
+
+        & > p {
+            line-height: 0px;
+            font-size: 15px;
+        }
+    }
 `;
 
 export const imgBox = (url) => css`
@@ -63,6 +78,5 @@ export const imgBox = (url) => css`
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(${url});
-
     animation: ${zoomInSlow} 10s ease-in-out infinite;
 `;

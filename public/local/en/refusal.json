@@ -1,0 +1,21 @@
+{
+    "refusal": {
+        "title": "Refusal of unauthorized e-mail collection",
+        "context": [
+            "Please note that e-mail addresses published on this Website must not be collected by anyone through electronic mail collecting programs or other technical measures without proper and prior approval, and that any violation of this rule will be subject to criminal punishment under the Act on Promotion of Information and Communications Network Utilization and Information Protection.",
+            "Act on Promotion of Information and Communications Network Utilization and Information Protection, Etc.",
+            "Article 50-2 (Prohibition on Act of Collecting E-Mail Addresses Without Permission, etc.)",
+            "No one shall collect e-mail addresses from the Internet homepages on which the intention of rejecting the collection of e-mail addresses is explicitly indicated, by means of programs and other technical devices that make it possible to collect e-mail addresses automatically.",
+            "No one shall sell or distribute e-mail addresses that are collected in violation of paragraph (1).",
+            "No one shall use the e-mail addresses for transmitting information with the knowledge that the prohibition is laid on the collection, sale and distribution of such e-mail addresses under paragraphs (1) and (2).",
+            "Article 65 (Penal Provisions) (1) Any person falling under any of the following subparagraphs shall be punished by a fine not exceeding 10 million won.",
+            "person who has put any label or similar one on goods or sold such goods bearing such label or displayed such goods for the purpose of selling them in contravention of Article 8 (4)",
+            "A person who has distributed, sold, rented, or openly displayed lascivious codes, letters, sounds, visuals, or films through information and communications network in violation of Article 44-7(1)1",
+            "A person who has repeatedly sent words, sounds, letters, visuals, or films inciting fears and uneasiness to any other person through information and communications network in violation of Article 44-7(1)3",
+            "A person who has taken technical measures in violation of Article 50 (4)",
+            "A person who has transmitted the advertisement information for the purpose of profit in violation of Article 50 (8); A person who has collected, sold or distributed e-mail addresses or used them for the purpose of transmitting information in violation of Article 50-2",
+            "A person who has transmitted the advertisement information for the purpose of profit in violation of Article 50 (8);",
+            "A person who has failed to register any change in registered information, or to report any business transfer, acquisition, or merge, and inheritance in violation of Article 53 (4)"
+        ]
+    }
+}

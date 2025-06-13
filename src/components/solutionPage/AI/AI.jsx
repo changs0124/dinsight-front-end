@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 function AI() {
     const nav = useNavigate();
     const { t: tHeader } = useTranslation("header");
-    const { t: tAi} = useTranslation("ai")
+    const { t: tAi } = useTranslation("ai")
 
     return (
         <div css={s.layout}>
@@ -19,10 +19,25 @@ function AI() {
                 }
             </div>
             <CommonTitle title={tHeader("header.1.title")} subtitle={tHeader("header.1.submenu.4.submenu.0.title")} />
-            <div css={s.titleAndContextBox}>
-                <h2>{tAi("ai.title")}</h2>
-                <p>{tAi("ai.context")}</p>
-            </div>
+            {
+                tAi("ai", { returnObjects: true }).map((data, idx) => (
+                    <div key={idx} css={s.titleAndContextBox}>
+                        <h2>{data.title}</h2>
+                        <p>{data.context}</p>
+                        {
+                            window.matchMedia("(max-width: 640px)").matches
+                                ?
+                                data.img.mobile?.map((img, idx) => (
+                                    <img key={idx} css={s.imgItem(img.ratio)} src={img.path} />
+                                ))
+                                :
+                                data.img.desktop?.map((img, idx) => (
+                                    <img key={idx} css={s.imgItem(img.ratio)} src={img.path} />
+                                ))
+                        }
+                    </div>
+                ))
+            }
         </div>
     );
 }

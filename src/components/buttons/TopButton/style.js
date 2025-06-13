@@ -37,4 +37,14 @@ export const layout = css`
             font-size: 20px;
         }
     }
+
+    ${media.mobileLandscape} {
+        width: 45px;
+        height: 45px;
+        right: 25px;
+
+        & svg {
+            font-size: 20px;
+        }
+    }
 `;

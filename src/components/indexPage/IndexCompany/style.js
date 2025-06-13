@@ -11,6 +11,10 @@ export const layout = css`
     ${media.mobile} {
         padding: 80px 20px;
     }
+
+    ${media.mobileLandscape} {
+        padding: 80px 20px;
+    }
 `;
 
 export const container = css`
@@ -57,6 +61,22 @@ export const header = css`
             font-size: 16px;
         }
     }
+
+    ${media.mobileLandscape} {
+        margin-bottom: 20px;
+
+        & > h2 {
+            margin-bottom: 15px;
+            line-height: 60px;
+            font-size: 33px;
+        }
+
+        & > p {
+            width: 100%;
+            line-height: 20px;
+            font-size: 16px;
+        }
+    }
 `;
 
 export const body = css`
@@ -66,6 +86,10 @@ export const body = css`
     width: 100%;
 
     ${media.mobile} {
+        flex-direction: column;
+    }
+
+    ${media.mobileLandscape} {
         flex-direction: column;
     }
 `;
@@ -127,13 +151,29 @@ export const companyBox = (on, off) => css`
         cursor: pointer;
     }
 
-    & > svg {
-        margin-top: 20px;
-        font-size: 30px;
-        cursor: pointer;
+    ${media.mobile} {
+        margin-bottom: 20px;
+        padding: 30px;
+        width: 100%;
+
+        & > div {
+            left: 30px;
+            bottom: 30px;
+        }
+
+        & > h2 {
+            line-height: 25px;
+            font-size: 19px;
+        }
+
+        & > p {
+            width: 100%;
+            line-height: 25px;
+            font-size: 15px;
+        }
     }
 
-    ${media.mobile} {
+    ${media.mobileLandscape} {
         margin-bottom: 20px;
         padding: 30px;
         width: 100%;
@@ -168,6 +208,12 @@ export const ectBox = css`
         flex-direction: column;
         width: 100%;
     }
+
+    ${media.mobileLandscape} {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 `;
 
 export const ectItem = (on, off) => css`
@@ -195,7 +241,7 @@ export const ectItem = (on, off) => css`
         background-position: center;
         background-repeat: no-repeat;
         background-image: url(${off});
-        z-index: 99;
+        z-index: 96;
         cursor: pointer;
     }
 
@@ -221,6 +267,26 @@ export const ectItem = (on, off) => css`
     }
 
     ${media.mobile} {
+        padding: 30px 20px;
+
+        & > div {
+            right: 10px;
+            bottom: 10px;
+            width: 80px;
+            aspect-ratio: 1 / 1;
+        }
+        & > h2 {
+            line-height: 25px;
+            font-size: 19px;
+        }
+
+        & > p {
+            line-height: 25px;
+            font-size: 15px;
+        }
+    }
+
+    ${media.mobileLandscape} {
         padding: 30px 20px;
 
         & > div {

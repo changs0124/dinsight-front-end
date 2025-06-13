@@ -21,6 +21,10 @@ export const mobileSelectBox = css`
         padding: 20px 30px;
         width: 100%;
     }
+
+    ${media.mobileLandscape} {
+        display: none;
+    }
 `;
 
 export const mobileSelectItem = (path, realPath) => css`
@@ -45,5 +49,60 @@ export const titleAndContextBox = css`
         color: #005EB0;
         font-size: 42px;
         font-weight: 700;
+    }
+
+    & > p {
+        box-sizing: border-box;
+        width: 100%;
+        padding-bottom: 40px;
+        line-height: 50px;
+        font-size: 33px;
+        font-weight: 700;
+    }
+
+    ${media.mobile} {
+        padding: 40px 20px 30px;
+
+        & > h2 {
+            padding-bottom: 20px;
+            font-size: 30px;
+        }
+
+        & > p {
+            padding-bottom: 15px;
+            line-height: 26px;
+            font-size: 16px;
+        }
+    }
+
+    ${media.mobileLandscape} {
+        padding: 40px 20px 30px;
+
+        & > h2 {
+            padding-bottom: 20px;
+            font-size: 30px;
+        }
+
+        & > p {
+            padding-bottom: 15px;
+            line-height: 26px;
+            font-size: 16px;
+        }
+    }
+`;
+
+export const imgItem = (ratio) => css`
+    padding-top: 65px;
+    width: 100%;
+    aspect-ratio: ${ratio};
+
+    ${media.mobile} {
+        padding-top: 0;
+        padding: 10px 0px 30px;
+    }
+
+    ${media.mobileLandscape} {
+        padding-top: 0;
+        padding: 10px 0px 30px;
     }
 `;

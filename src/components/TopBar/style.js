@@ -1,5 +1,4 @@
 import { css } from "@emotion/react";
-import { subMenuSlideDown, subMenuSlideUp } from "../../styles/keyframes";
 
 export const layout = (ani) => css`
     box-sizing: border-box;
@@ -12,6 +11,7 @@ export const layout = (ani) => css`
     background-color: #f7f7f7;
     animation: ${ani} 0.3s ease-in-out forwards;   
     z-index: 99;
+    overflow: auto;
 `;
 
 export const container = css`
@@ -36,7 +36,6 @@ export const container = css`
             background-color: #cccccc;
         }
     }
-
 `;
 
 export const menuBox = css`
@@ -55,9 +54,5 @@ export const menuBox = css`
 
     & > :not(:nth-last-of-type(1)) {
         border-bottom: 1px solid #dbdbdb;
-    }
-
-    :active {
-        background-color: #0382F177;
     }
 `;

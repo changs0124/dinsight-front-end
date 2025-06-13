@@ -10,6 +10,10 @@ export const layout = css`
     ${media.mobile} {
         flex-direction: column;
     }
+
+    ${media.mobileLandscape} {
+        flex-direction: column;
+    }
 `;
 
 export const solContainer = css`
@@ -17,7 +21,7 @@ export const solContainer = css`
     display: flex;
     flex-direction: column;
     border-radius: 0 30px 30px 0;
-    padding: 150px 100px;
+    padding: 150px 100px 400px;
     width: 45%;
     aspect-ratio: 793 / 1084;
     background-size: cover;
@@ -26,7 +30,12 @@ export const solContainer = css`
     background-image: url("/images/indexPage/indexSolution/sec02_bg.jpg");
 
     ${media.mobile} {
-        padding: 20px;
+        padding: 30px;
+        width: 80%;
+    }
+
+    ${media.mobileLandscape} {
+        padding: 150px 100px 250px;
         width: 80%;
     }
 `;
@@ -68,49 +77,83 @@ export const titleAndContext = css`
             font-weight: 300;
             line-height: 20px;
         }
-        
+    }
+
+    ${media.mobileLandscape} {
+        & > h2 {
+            margin-bottom: 15px;
+            line-height: 60px;
+            font-size: 33px;    
+        }
+
+        & > p {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 20px;
+        }
     }
 `;
 
 export const solutionBox = css`
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
     position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
+
+    & > p {
+        box-sizing: border-box;
+        position: absolute;
+        display: flex;
+        border-radius: 20px;
+        width: 8px;
+        height: 100%;
+        background-color: #ffffff;
+    }
 `;
 
 export const solutionItem = (idx, index) => css`
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    border-left: 7px solid #ffffff;
-    padding: 20px 20px;
     width: 100%;
-    color: ${idx === index ? "#007bff" : "#ffffff"};
-    font-size: 25px;
-    font-weight: 600;
     cursor: pointer;
 
-    :hover {
-        border-left:7px solid #007bff;
-        padding-left: 35px;
-        color: #007bff;
-        font-weight: 600;
+    & > div {
+        box-sizing: border-box;
+        margin-right: 20px;
+        border-radius: 20px;
+        width: 8px;
+        height: 100%;
+        background-color: ${idx === index ? "#007bff" : "#ffffff"};
+        z-index: 96;
     }
 
-    ${media.mobile} {
-        justify-content: center;
-        border:  ${idx === index ? "1px solid #007bff" : "1px solid transparent"};
-        border-radius: 100px;
-        padding: 10px 10px;
-        font-size: 18px;
-        font-weight: 400;
+    & > p {
+        padding: 20px 0px;
+        color: ${idx === index ? "#007bff" : "#ffffff"};
+        font-size: 30px;
+        font-weight: 600;
+        cursor: pointer;
+    }
 
-        :hover {
-            border: 1px solid #007bff;
-            border-radius: 100px;
-            padding: 10px 10px;
+   
+
+    ${media.mobile} {
+        & > p {
+            padding: 10px 0px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    ${media.mobileLandscape} {
+        & > p {
+            padding: 10px 0px;
+            font-size: 18px;
+            font-weight: 500;
         }
     }
 `;
@@ -123,6 +166,13 @@ export const detailContainer = css`
     align-items: center;
     padding: 150px 100px;
     width: 55%;
+
+    & > img {
+        margin-bottom: 30px;
+        border-radius: 20px;
+        width: 100%;
+        aspect-ratio: 797 / 494;
+    }
 
     & > h2 {
         margin-bottom: 20px;
@@ -155,17 +205,20 @@ export const detailContainer = css`
             font-size: 16px;
         }
     }
-`;
 
-export const imgBox = (url) => css`
-    box-sizing: border-box;
-    display: flex;
-    margin-bottom: 30px;
-    border-radius: 30px;
-    width: 100%;
-    aspect-ratio: 797 / 494;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(${url});
+    ${media.mobileLandscape} {
+        padding: 30px 20px 65px;
+        width: 100%;
+
+        & > h2 {
+            margin-bottom: 15px;
+            font-size: 27px;
+        }
+
+        & > p{
+            margin-bottom: 15px;
+            line-height: 27px;
+            font-size: 16px;
+        }
+    }
 `;

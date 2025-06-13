@@ -31,7 +31,6 @@ function System() {
                         ))
                     }
                 </div>
-
             </div>
         </div>
     );

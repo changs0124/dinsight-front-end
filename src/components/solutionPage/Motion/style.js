@@ -69,6 +69,25 @@ export const motionBox = css`
             height: 30%;
         }
     }
+
+    ${media.mobileLandscape} {
+        padding: 40px 20px;
+        
+        & > h2 {
+            padding-bottom: 15px;
+            line-height: 26px;
+            font-size: 16px;
+        }
+            
+        & > p {
+            line-height: 26px;
+            font-size: 15px;
+        }
+    
+        & > p::before {
+            height: 30%;
+        }
+    }
 `;
 
 export const motionItem = css`

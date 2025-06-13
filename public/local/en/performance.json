@@ -1,0 +1,188 @@
+{
+    "performance": [
+        {
+            "title": "Ministry of Science and ICT - Digital Asset Creation Project",
+            "context": "Provides 3D modeling services based on companies 'existing 2D drawings using Dassault Systèmes' CATIA, allowing for early error detection before prototype production through disassembly/assembly and interference check simulations.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi01_m.png",
+                        "ratio": "627 / 337"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi01.png",
+                        "ratio": "600 / 323"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Ministry of Environment – Development of integrated management technology for intelligent urban water resources based on a virtual physical system",
+            "context": "3D modeling was performed based on a 2D sketch of the 2nd water intake station in Hyundo, and the velocity of the fluid in the pipe can be proven in the form of particles by performing system analysis and visualization.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi02_eng_m.png",
+                        "ratio": "320 / 229"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi02_eng.png",
+                        "ratio": "1200 / 661"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Ministry of Science and ICT - Specialized Growth Support Project for Small and Medium-sized Special Zones",
+            "context": "Implemented 3D modeling and a VR system based on 2D design data of large-capacity wind turbine systems, allowing users to experience key internal systems (such as the generator and power converter) of the wind turbine in a realistic virtual environment.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi03_m.png",
+                        "ratio": "80 / 87"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi03.png",
+                        "ratio": "1200 / 697"
+                    },
+                    {
+                        "path": "/images/businessPage/performance/busi04.png",
+                        "ratio": "600 / 289"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Ministry of Science and ICT – 5G-based digital twin public leading project",
+            "context": "Digitalization and intelligence of the product are accomplished as a project for the Digital Twin of the beneficiary company's products through a series of activities for the digital twin, such as product modeling, structural analysis, and installation/disassembly simulation",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi05_eng_m.png",
+                        "ratio": "320 / 229"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi05_eng.png",
+                        "ratio": "152 / 91"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Ministry of Science and ICT - MVDC Power Conversion Station Digital Twin Simulator Development",
+            "context": "Provides an immersive virtual experience of an MVDC power conversion facility by building 3D modeling, rendering, and a VR system, allowing users to access comprehensive information about the facility through the integration of thermal/electromagnetic analysis results and equipment specifications.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi06_m.png",
+                        "ratio": "79 / 186"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi06.png",
+                        "ratio": "30 / 19"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Ministry of Science and ICT – Digital platform construction project of Gyeongnam Changwon 3D industrial complex",
+            "context": "Product 3D modeling, VR content production, digital exhibition hall creation, and marketplace establishment services were provided to small and medium-sized enterprises in Changwon, Gyeongnam, and non-face-to-face promotion capacity improvement and digitalization of companies/products were promoted.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi07_eng_m.png",
+                        "ratio": "320 / 753"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi07.png",
+                        "ratio": "1200 / 689"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Korea Industrial Complex Corporation – Process innovation simulation center construction project",
+            "context": "By setting an analysis automation template linked with the CAE software and coupled with HPC, a series of activities such as analysis INPUT, execution, STATUS, and RESULT upload were automated, allowing easy DOE performance, particularly for products with parameterized modeling.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi08_eng_m.png",
+                        "ratio": "40 / 59"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi08.png",
+                        "ratio": "612 / 229"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "SK Eco Plant - 2023 TECH OPEN COLLABORATION",
+            "context": "Proposed a plan to build a real-time monitoring system for structures at the SK Ocean Plant yard based on digital twin technology, won the competition, and signed an MOU (with SK Ocean Plant and SK Eco Plant) -> Currently conducting PoC",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi09_m.png",
+                        "ratio": "35 / 41"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi09.png",
+                        "ratio": "612 / 229"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Ministry of Science and ICT - ICT R&D Innovation Voucher Project (ICT Digital Platform Development Based on Process Simulation Technology)",
+            "context": "The project is conducted to enhance quality and cost competitiveness through process optimization, utilizing 3D modeling and process simulation technology.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi10_m.png",
+                        "ratio": "35 / 41"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi10.png",
+                        "ratio": "612 / 229"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Ulsan-Gyeongnam Regional Innovation Platform Smart Manufacturing Engineering Project Group - USG Shared University Major Course (Project Design Advanced 1: Systems Engineering)",
+            "context": "This is a practical course on systems engineering, a field that has recently gained significant attention. The course provides undergraduate students with foundational knowledge by teaching theory and examples related to 1D simulation, with the goal of enhancing their employability in related local industries.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi11_m.png",
+                        "ratio": "35 / 41"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi11.png",
+                        "ratio": "612 / 229"
+                    }
+                ]
+            }
+        }
+    ]
+}

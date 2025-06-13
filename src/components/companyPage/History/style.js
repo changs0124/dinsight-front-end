@@ -40,6 +40,20 @@ export const firstContainer = css`
             font-size: 15px;
         }
     }
+
+    ${media.mobileLandscape} {
+        padding: 30px 20px;
+
+        & > h2 {
+            padding-bottom: 15px;
+            font-size: 25px;
+        }
+
+        & > p {
+            line-height: 26px;
+            font-size: 15px;
+        }
+    }
 `;
 
 export const secondContainer = css`
@@ -50,6 +64,10 @@ export const secondContainer = css`
     width: 100%;
 
     ${media.mobile} {
+        padding: 0px 20px;
+    }
+
+    ${media.mobileLandscape} {
         padding: 0px 20px;
     }
 `;
@@ -67,17 +85,19 @@ export const buttonBox = css`
 
 export const buttonItem = (idx, id) => css`
     box-sizing: border-box;
-        display: flex;
-        border-radius: 30px;
-        padding: 13px 20px;
-        width: fit-content;
-        background-color: ${idx === id ? "#1a6dfe" : "#dbdbdb"};
+    display: flex;
+    border-radius: 30px;
+    padding: 13px 20px;
+    width: fit-content;
+    background-color: ${idx === id ? "#1a6dfe" : "#dbdbdb"};
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
 
-        color: #ffffff;
-        font-size: 20px;
-        font-weight: 500;
-
-        cursor: pointer;
+    ${media.mobile} {
+        font-size: 18px;
+    }
 `;
 
 export const yearBox = (idx, index) => css`
@@ -142,7 +162,34 @@ export const yearBox = (idx, index) => css`
             padding-right: 30px;
             font-size: 25px;
         }
-        
+    }
+
+    ${media.mobileLandscape} {
+        & > ::after {
+            content: "";
+            position: absolute;
+            top: 43px;
+            left: 78px;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            background-color: #2f80ed;
+        }
+
+        & > ::before {
+                content: "";
+                position: absolute;
+                top: 50px;
+                left: 82px;
+                width: 2px;
+                height: ${idx === index ? "0px" : "100%"};
+                background-color: #2f80ed;
+        }
+
+        & > h2 {
+            padding-right: 30px;
+            font-size: 25px;
+        }
     }
 `;
 
@@ -153,18 +200,22 @@ export const monthBox = css`
 
     & > h2 { 
         padding: 3px 30px 30px 50px;
-
         font-size: 35px;
         font-weight: 500;
     }
 
     ${media.mobile} {
-
         & > h2 {
             padding: 3px 5px ;
             font-size: 19px;
         }
-      
+    }
+
+    ${media.mobileLandscape} {
+        & > h2 {
+            padding: 3px 5px ;
+            font-size: 19px;
+        }
     }
 `;
 
@@ -185,6 +236,16 @@ export const textBox = css`
     }
 
     ${media.mobile} {
+        padding-top: 5px;
+        & > p {
+            padding-left: 10px;
+            padding-bottom: 20px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+
+    ${media.mobileLandscape} {
         padding-top: 5px;
         & > p {
             padding-left: 10px;

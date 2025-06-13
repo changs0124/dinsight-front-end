@@ -1,12 +1,40 @@
 {
     "companyPage": {
         "company": {
-            "title": "Through various government-related tasks,",
-            "context": "디지털 토탈 솔루션 전문기업으로 성장하기 위해 여러 정부과제를 통해 경남지역 기업들의 디지털 트랜스포메이션 촉진제 역할을 수행하고 있습니다."
+            "title": "(주)디인사이트는",
+            "context": "디지털 토탈 솔루션 전문기업으로 성장하기 위해 여러 정부과제를 통해 경남지역 기업들의 디지털 트랜스포메이션 촉진제 역할을 수행하고 있습니다.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/companyPage/company-img01-360.png",
+                        "ratio": "37 / 19"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/companyPage/company-img01.png",
+                        "ratio": "65 / 21"
+                    }
+                ]
+            }
         },
         "solution": {
             "title": "디지털트윈 솔루션, 시스템 엔지니어링, AI 솔루션 제공",
-            "context": "업무의 효율화, 안전사고 방지, 가상제품 제작, 디지털 전시장 등의 솔루션을 제공함으로써 고객에게 최고의 가치를 제공합니다."
+            "context": "업무의 효율화, 안전사고 방지, 가상제품 제작, 디지털 전시장 등의 솔루션을 제공함으로써 고객에게 최고의 가치를 제공합니다.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/companyPage/company-img02-360.png",
+                        "ratio": "37 / 21"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/companyPage/company-img02.png",
+                        "ratio": "230 / 107"
+                    }
+                ]
+            }
         },
         "info": [
             {

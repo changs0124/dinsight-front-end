@@ -13,6 +13,10 @@ export const layout = css`
     ${media.mobile} {
         padding: 0px 20px;
     }
+
+    ${media.mobileLandscape} {
+        padding: 0px 20px;
+    }
 `;
 
 export const container = css`
@@ -34,6 +38,12 @@ export const routeAndSelectBox = css`
     width: 100%;
 
     ${media.mobile} {
+        flex-direction: column;
+        align-items: baseline;
+        margin-bottom: 20px;
+    }
+
+    ${media.mobileLandscape} {
         flex-direction: column;
         align-items: baseline;
         margin-bottom: 20px;
@@ -64,6 +74,28 @@ export const routeBox = css`
     }
 
     ${media.mobile} {
+        margin-bottom: 20px;
+
+        & > p {
+            ${media.mobile} {
+                line-height: 25px;
+                font-size: 15px;
+                font-weight: 500;
+            }
+        }
+
+        & > p:not(:nth-last-of-type(1))::after {
+            content: '';
+            display: inline-block;
+            margin: 0px 15px;
+            width: 2px;
+            height: 20px;
+            background-color: #ffffff;
+            vertical-align: middle;
+        }
+    }
+
+    ${media.mobileLandscape} {
         margin-bottom: 20px;
 
         & > p {
@@ -124,6 +156,15 @@ export const selectBox = (isShow) => css`
             font-size: 15px;
         }
     }
+
+    ${media.mobileLandscape} {
+        padding: 10px 20px;
+        width: 30%;
+
+        & > p {
+            font-size: 15px;
+        }
+    }
 `;
 
 export const optionBox = (isShow) => css`
@@ -158,6 +199,10 @@ export const optionBox = (isShow) => css`
     ${media.mobile} {
         top: 16px;
     }
+
+    ${media.mobileLandscape} {
+       top: 12px;
+    }
 `;
 
 export const addressBox = css`
@@ -191,6 +236,21 @@ export const addressBox = css`
             margin-bottom: 20px;
         }
     }
+
+    ${media.mobileLandscape} {
+        flex-direction: column;
+        align-items: baseline;
+        margin-bottom: 0;
+
+        & > p {
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        & > p:nth-last-of-type(1) {
+            margin-bottom: 20px;
+        }
+    }
 `;
 
 export const ectBox = css`
@@ -204,6 +264,10 @@ export const ectBox = css`
     font-size: 18px;
 
     ${media.mobile} {
+        font-size: 14px;
+    }
+
+    ${media.mobileLandscape} {
         font-size: 14px;
     }
 `;

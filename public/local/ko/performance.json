@@ -1,0 +1,188 @@
+{
+    "performance": [
+        {
+            "title": "과학기술정보통신부 - 디지털 자산구축 사업",
+            "context": "다쏘시스템의 CATIA를 사용하여 기업이 보유한 2D 도면 기반 3D 모델링 서비스를 제공하며, 분해/조립 및 간섭 검토 시뮬레이션을 통해 시제품 제작 전 오류를 사전에 파악할 수 있음",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi01_m.png",
+                        "ratio": "627 / 337"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi01.png",
+                        "ratio": "600 / 323"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "환경부 - 가상물리시스템 기반 지능형 도시수자원 통합 관리기술 개발",
+            "context": "현도 제2 취수펌프장의 2D 도면을 기반으로 3D 모델링을 수행하였으며, 시스템 해석 및 가시화를 구현하여 관내 유체의 움직임을 입자형태로 확인할 수 있음.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi02_m.png",
+                        "ratio": "631 / 471"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi02.png",
+                        "ratio": "1200 / 661"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "과학기술정보통신부 - 강소특구 특화성장 지원사업",
+            "context": "대용량 풍력터빈 시스템의 2D 설계 데이터 기반 3D 모델링 및 VR 시스템을 구현하였으며, 이를 통해 VR을 이용하여 풍력터빈 내부의 주요시스템 (발전기, 전력변환기 등)을 실제와 유사하게 체험 가능",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi03_m.png",
+                        "ratio": "80 / 87"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi03.png",
+                        "ratio": "1200 / 697"
+                    },
+                    {
+                        "path": "/images/businessPage/performance/busi04.png",
+                        "ratio": "600 / 289"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "과학기술정보통신부 - 5G기반 디지털 트윈 공공선도 사업",
+            "context": "수혜기업 제품의 디지털 트윈을 위한 사업으로, 제품의 모델링, 구조해석, 설치/분해 시뮬레이션 등 디지털 트윈을 위한 일련의 작업을 통해 제품의 디지털화, 지능화를 구현",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi05_m.png",
+                        "ratio": "160 / 381"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi05.png",
+                        "ratio": "152 / 91"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "과학기술정보통신부 - MVDC전력변환소 디지털 트윈 시뮬레이터 구축",
+            "context": "MVDC 전력변환소의 3D 모델링, 렌더링, VR 시스템 구축을 통해 가상의 전력변환시설에 대한 간접체험을 경험할 수 있으며, 열/전자계 해석 결과와 시설물의 사양서를 배치함으로써 시설물에 대한 전반적인 정보를 확인가능",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi06_m.png",
+                        "ratio": "79 / 186"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi06.png",
+                        "ratio": "30 / 19"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "과학기술정보통신부 - 경남창원 3D산단 디지털플랫폼 구축사업",
+            "context": "경남 창원의 중소/중견기업을 대상으로 제품의 3D모델링, VR컨텐츠제작, 디지털 전시장 제작 및 Market Place 구축 서비스를 제공했으며, 비대면 홍보역량 제고 및 기업/제품의 디지털화를 도모",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi07_m.png",
+                        "ratio": "160 / 119"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi07.png",
+                        "ratio": "1200 / 689"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "한국산업단지공단 - 공정혁신 시뮬레이션 센터 구축 사업",
+            "context": "CAE 프로그램과 연동되는 해석 자동화 템플릿을 구성하고 HPC와 연동하여 해석의 INPUT, 실행, STATUW, RESULT 업로드 등 일련의 과정을 자동화 하였고, 특히 Parameter Modeling이 된 제품에 대해 쉬운 DOE 수행을 가능케 함",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi08_m.png",
+                        "ratio": "80 / 57"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi08.png",
+                        "ratio": "612 / 229"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "SK에코플랜트 - 2023 TECH OPEN COLLABORATION",
+            "context": "SK 오션플랜트 야적장에 대하여 디지털트윈 기반, 구조물에 대한 실시간 모니터링 시스템을 구축하는 방안을 제시, 공모전 수상 및 MOU 체결 (SK 오션플랜트, SK 에코플랜트) → 현재 POC 수행 중",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi09_m.png",
+                        "ratio": "35 / 41"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi09.png",
+                        "ratio": "612 / 229"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "과학기술정보통신부 - ICT R&D 혁신바우처 사업(공정 시뮬레이션 기술 기반 ICT 디지털 플랫폼 구축)",
+            "context": "3D모델링, 공정 시뮬레이션 기술을 활용하여 공정 최적화를 통한 품질, 가격경쟁력 확보를 목적으로 과제 수행",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi10_m.png",
+                        "ratio": "35 / 41"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi10.png",
+                        "ratio": "612 / 229"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "울산•경남지역혁신플랫폼 스마트제조엔지니어링 사업단 - USG 공유대학 전공 강의(프로젝트 디자인 Advanced1 : 시스템 엔지니어링)",
+            "context": "최근 각광받고 있는 시스템 엔지니어링의 실습강의로, 학부생들을 위한 1D 시뮬레이션 관련 이론 및 예제를 강의함으로써 기초지식을 함양하고, 유관분야의 지역 기업체 취업 가능성을 제고하기 위함",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/businessPage/performance/busi11_m.png",
+                        "ratio": "35 / 41"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/businessPage/performance/busi11.png",
+                        "ratio": "612 / 229"
+                    }
+                ]
+            }
+        }
+    ]
+}

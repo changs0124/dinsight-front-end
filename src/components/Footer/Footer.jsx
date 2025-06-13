@@ -23,7 +23,7 @@ function Footer() {
                     <div css={s.routeBox}>
                         {
                             t("footer.route", { returnObjects: true }).map((route, idx) => (
-                                <p key={idx} onClick={() => nav(route.path)}>{route.title}</p>
+                                <p key={idx} onClick={() => window.location.href = route.path}>{route.title}</p>
                             ))
                         }
                     </div>
@@ -45,7 +45,6 @@ function Footer() {
                             <p>{address.name}</p>
                             <p>{address.address}</p>
                         </div>
-
                     ))
                 }
                 <div css={s.ectBox}>

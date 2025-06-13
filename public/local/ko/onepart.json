@@ -1,0 +1,80 @@
+{
+    "onepart": [
+        {
+            "title": "제품개발 프로세스",
+            "context": "EXALEAD ONEPART 플랫폼 개발을 통해, 생산중인 제품 서비스 및 신제품 개발에서 서비스에 이르는 수명주기 전반의 경제형 개발 및 구매 혁신을 지원",
+            "img": {
+                "desktop": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa01.png",
+                        "ratio": "1177 / 673"
+                    }
+                ],
+                "mobile": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa01_m.png",
+                        "ratio": "635 / 1552"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "REUSE / REDUCE",
+            "context": "엔지니어 관점의 3D 유사형상 검색 및 활용을 위한 \"Reuse\"와 3D 유사형상 분석을 통한 부품공용화 및 구매비용절감 도출을 위한 \"Reduce\"로 구분",
+            "img": {
+                "desktop": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa02.png",
+                        "ratio": "1200 : 587"
+                    }
+                ],
+                "mobile": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa02_m.png",
+                        "ratio": "21 / 41"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "도입 필요성",
+            "context": "대량의 부품 데이터 및 분산된 기준 정보에 의한 통합 분석의 어려움, 머신러닝 기반 형상 분석 결과를 활용한 데이터 분석 기반 디지털 구매 혁신이 필요함",
+            "img": {
+                "desktop": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa03.png",
+                        "ratio": "1221 / 436"
+                    }
+                ],
+                "mobile": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa03_m.png",
+                        "ratio": "653 / 1191" 
+                    }
+                ]
+            }
+        },
+        {
+            "title": "도입 기대효과",
+            "context": "공용화가 가능한 유사형상 부품들이 식별되며, ERP 구매정보 연계를 통해 엔지니어링 무효율 향상 및 비용절감",
+            "img": {
+                "desktop": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa04.png",
+                        "ratio": "75 / 17"
+                    },
+                    {
+                        "path": "/images/solutionPage/onepart/exa05.png",
+                        "ratio": "1201 / 656"
+                    }
+                ],
+                "mobile": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa04_m.png",
+                        "ratio": "654 / 2699"
+                    }
+                ]
+            }
+        }
+    ]
+}

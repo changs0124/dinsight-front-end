@@ -13,6 +13,10 @@ export const layout = css`
     ${media.mobile} {
         height: 100vh;
     }
+
+    ${media.mobileLandscape} {
+        height: 100vh;
+    }
 `;
 
 export const container = (url) =>  css`
@@ -27,6 +31,11 @@ export const container = (url) =>  css`
     animation: ${zoomInSlow} 10s ease-in-out infinite;
 
     ${media.mobile} {
+        min-height: 100vh;
+        animation: none;
+    }
+
+    ${media.mobileLandscape} {
         min-height: 100vh;
         animation: none;
     }
@@ -51,11 +60,6 @@ export const textBox = (idx, index) => css`
         color: #ffffff;
         font-size: 85px;
         font-weight: 900;
-
-        ${media.tablet} {
-            line-height: 60px;
-            font-size: 55px;
-        }
     }
 
     & > p {
@@ -69,6 +73,23 @@ export const textBox = (idx, index) => css`
     }
 
     ${media.mobile} {
+        top: 35%;
+        left: 2%;
+
+        & > h2 {
+            width: 100%;
+            line-height: 40px;
+            font-size: 38px;
+        }
+
+        & > p {
+            width: 90%;
+            line-height: 32px;
+            font-size: 17px;
+        }
+    }
+
+    ${media.mobileLandscape} {
         top: 35%;
         left: 2%;
 

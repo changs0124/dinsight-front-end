@@ -1,0 +1,76 @@
+{
+    "onepart": [
+        {
+            "title": "Product Development Process",
+            "context": "By developing the EXALEAD ONEPART platform, we support economic development and purchasing innovation across the entire lifecycle, from production-centric product services to new product development and services.",
+            "img": {
+                "desktop": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa01_eng.png",
+                        "ratio": "1177 / 673"
+                    }
+                ],
+                "mobile": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa01_eng_m.png",
+                        "ratio": "635 / 1552"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "REUSE / REDUCE",
+            "context": "Divided into \"Reuse\" for 3D similar shape search and utilization from an engineer's perspective, and \"Reduce\" for achieving part commonization and purchase cost reduction through 3D similar shape analysis.",
+            "img": {
+                "desktop": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa02_eng.png",
+                        "ratio": "1200 : 587"
+                    }
+                ],
+                "mobile": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa02_eng_m.png",
+                        "ratio": "21 / 41"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Necessity of Adoption",
+            "context": "To address the difficulties in analyzing large amounts of part data and distributed standard information, there is a need for digital purchasing innovation based on data analysis results using machine learning-based shape analysis.",
+            "img": {
+                "desktop": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa03_eng.png",
+                        "ratio": "1221 / 436"
+                    }
+                ],
+                "mobile": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa03_eng_m.png",
+                        "ratio": "653 / 1191" 
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Expected Benefits of Adoption",
+            "context": "Identifying parts with commonization potential and linking ERP purchasing information to improve engineering efficiency and reduce costs.",
+            "img": {
+                "desktop": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa04_eng.png",
+                        "ratio": "1201 / 1016"
+                    }
+                ],
+                "mobile": [
+                    {
+                        "path": "/images/solutionPage/onepart/exa04_eng_m.png",
+                        "ratio": "654 / 2915"
+                    }
+                ]
+            }
+        }
+    ]
+}

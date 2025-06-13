@@ -20,13 +20,14 @@ import Performance from "./components/businessPage/Performance/Performance";
 import Resource from "./components/supportPage/Resource/Resource";
 import Contact from "./components/supportPage/Contact/Contact";
 import Onepart from "./components/solutionPage/Onepart/Onepart";
+import RefusalPage from "./pages/RefusalPage/RefusalPage";
+import PolicyPage from "./pages/PolicyPage/PolicyPage";
 
 function App() {
     return (
         <>
             <Global styles={reset} />
             <Routes>
-                <Route path="/*" element={<IndexPage />} />
                 <Route path="/company" element={<CompanyPage />}>
                     <Route index element={<Company />} />
                     <Route path="history" element={<History />} />
@@ -59,6 +60,9 @@ function App() {
                     <Route path="contact" element={<Contact />} />
                     <Route path="*" element={<Navigate to="/support/resource" replace />} />
                 </Route>
+                <Route path="/email" element={<RefusalPage />}/>
+                <Route path="/policy" element={<PolicyPage />}/>
+                <Route path="/*" element={<IndexPage />} />             
             </Routes>
         </>
     );

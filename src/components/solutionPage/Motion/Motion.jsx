@@ -16,7 +16,7 @@ function Motion() {
                         <div key={idx} css={s.motionItem}>
                            <iframe
                             src={url}
-                            frameborder="0"
+                            frameBorder="0"
                             allowFullScreen
                            >
                            </iframe>

@@ -31,6 +31,10 @@ export const container = css`
     ${media.mobile} {
         padding: 0px 20px;
     }
+
+    ${media.mobileLandscape} {
+        padding: 0px 20px;
+    }
 `;
 
 export const menuBox = css`
@@ -58,7 +62,7 @@ export const menuBox = css`
         display: none;
     }
 
-    ${media.tablet} {
+    ${media.mobileLandscape} {
         display: none;
     }
 `;
@@ -132,6 +136,16 @@ export const lanBox = (lan, isOpen) => css`
             animation: ${fadeIn} 0.3s ease forwards;
             cursor: pointer;
         }
+
+        ${media.mobileLandscape} {
+            display: flex;
+            margin-left: 15px;
+
+            color: ${isOpen ? "#0382f1" : "#000000"};
+            font-size: 40px;
+            animation: ${fadeIn} 0.3s ease forwards;
+            cursor: pointer;
+        }
     }
 
     & > p {
@@ -149,5 +163,4 @@ export const lanBox = (lan, isOpen) => css`
     & > button:nth-of-type(2) {
         color: ${lan === "en" && "#0382f1"};
     }
-    
 `;

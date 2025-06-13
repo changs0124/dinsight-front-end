@@ -1,7 +1,7 @@
 {
     "model": {
-        "first-title": "2D 도면을 활용하는 고객에게 CATIA를 사용한 고정밀 3D 모델을 제공함으로써 엔지니어의 이해도 향상 및 데이터 재사용이 가능합니다.",
-        "first-context": "CATIA는 지난 20년간 전 세계적인 CAD/CAM/CAE 솔루션으로서 많은 각광을 받아왔습니다. 제품의 설계, 해석, 가공뿐 아니라 Digital Mockup, Digital Manufacturing, Web Engineering에 의한 전사적 협업이 가능합니다.",
+        "firstTitle": "2D 도면을 활용하는 고객에게 CATIA를 사용한 고정밀 3D 모델을 제공함으로써\n엔지니어의 이해도 향상 및 데이터 재사용이 가능합니다.",
+        "firstContext": "CATIA는 지난 20년간 전 세계적인 CAD/CAM/CAE 솔루션으로서 많은 각광을 받아왔습니다.\n제품의 설계, 해석, 가공뿐 아니라 Digital Mockup, Digital Manufacturing, Web Engineering에 의한 전사적 협업이 가능합니다.",
         "detail": [
             {
                 "title": "디자이너",
@@ -24,7 +24,21 @@
                 "img": "/images/solutionPage/model/model-img04.png"
             }
         ],
-        "second-title": "CATIA로 제작된 고정밀 3D모델을 Unreal상에서 재질/질감 및 광원 효과를 적용함으로써 좀 더 실물에 가까운 모델을 구현할 수 있는 렌더링 서비스를 제공합니다.",
-        "second-context": "3D CAD로 모델링 된 파일을 Unreal로 Import하여 재질, 질감효과를 적용하여 현실감있는 모델을 구현할 수 있습니다."
+        "secondTitle": "CATIA로 제작된 고정밀 3D모델을 Unreal상에서 재질/질감 및 광원 효과를\n적용함으로써 좀 더 실물에 가까운 모델을 구현할 수 있는 렌더링 서비스를 제공합니다.",
+        "secondContext": "3D CAD로 모델링 된 파일을 Unreal로 Import하여 재질,\n질감효과를 적용하여 현실감있는 모델을 구현할 수 있습니다.",
+        "img": {
+            "mobile": [
+                {
+                    "path": "/images/solutionPage/model/model-cont02-img01-770.png",
+                    "ratio": "320 / 237"
+                }
+            ],
+            "desktop": [
+                {
+                    "path": "/images/solutionPage/model/model-cont02-img01.png",
+                    "ratio": "1221 / 485"
+                }
+            ]
+        }
     }
 }

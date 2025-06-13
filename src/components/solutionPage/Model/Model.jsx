@@ -11,14 +11,14 @@ function Model() {
         <div css={s.layout}>
             <CommonTitle title={tHeader("header.1.title")} subtitle={tHeader("header.1.submenu.0.title")} />
             <div css={s.modelBox}>
-                <h2>{tModel("model.first-title")}</h2>
-                <p>{tModel("model.first-context")}</p>
+                <h2>{tModel("model.firstTitle")}</h2>
+                <p>{tModel("model.firstContext")}</p>
             </div>
             <div css={s.detailBox}>
                 {
                     tModel("model.detail", { returnObjects: true })?.map((detail, idx) => (
-                        <div key={idx} css={s.detailItem(detail.img)}>
-                            <div />
+                        <div key={idx} css={s.detailItem}>
+                            <img src={detail.img} alt="" />
                             <h2>{detail.title}</h2>
                             <p>{detail.context}</p>
                         </div>
@@ -26,12 +26,19 @@ function Model() {
                 }
             </div>
             <div css={s.modelBox}>
-                <h2>{tModel("model.second-title")}</h2>
-                <p>{tModel("model.second-context")}</p>
-                <picture>
-                    <source srcSet="/images/solutionPage/model/model-cont02-img01-770.png" media="(max-width: 430px)" />
-                    <img css={s.img} src="/images/solutionPage/model/model-cont02-img01.png" alt="" />
-                </picture>
+                <h2>{tModel("model.secondTitle")}</h2>
+                <p>{tModel("model.secondContext")}</p>
+                {
+                    window.matchMedia("(max-width: 640px)").matches
+                        ?
+                        tModel("model.img.mobile", { returnObjects: true })?.map((img, idx) => (
+                            <img key={idx} css={s.imgItem(img.ratio)} src={img.path} />
+                        ))
+                        :
+                        tModel("model.img.desktop", { returnObjects: true })?.map((img, idx) => (
+                            <img key={idx} css={s.imgItem(img.ratio)} src={img.path} />
+                        ))
+                }
             </div>
         </div>
     );

@@ -13,6 +13,10 @@ export const layout = css`
     ${media.mobile} {
         display: none;
     }
+
+    ${media.mobileLandscape} {
+        padding: 10px 70px;
+    }
 `;
 
 export const container = css`
@@ -29,6 +33,9 @@ export const container = css`
 
     & > div:nth-of-type(1) {
         border-left: 1px solid #dbdbdb;
+    }
+
+    & > div {
         border-right: 1px solid #dbdbdb;
     }
 `;
@@ -52,7 +59,18 @@ export const selectBox = (isShow) => css`
     }
 
     & > p {
+        box-sizing: border-box;
+        width: 100%;
+        line-height: 30px;
         font-size: 20px;
+    }
+
+    ${media.mobileLandscape} {
+        width: 30%;
+        
+        & > p {
+            font-size: 18px;
+        }
     }
 `;
 
@@ -61,7 +79,7 @@ export const optionBox = (isShow, length) => css`
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 41px;
+    top: 42px;
     left: 0px;
     border-left: 1px solid #dbdbdb;
     border-right: 1px solid #dbdbdb;

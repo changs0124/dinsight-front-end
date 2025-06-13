@@ -9,11 +9,11 @@ export const layout = css`
     padding: 180px 350px 180px;
     width: 100%;
 
-    ${media.tablet} {
-        padding: 180px 70px 200px;
+    ${media.mobile} {
+        padding: 80px 20px;
     }
 
-    ${media.mobile} {
+    ${media.mobileLandscape} {
         padding: 80px 20px;
     }
 `;
@@ -68,6 +68,22 @@ export const container = css`
             font-size: 15px;
         }
     }
+
+    ${media.mobileLandscape} {
+        padding: 35px 10px;
+
+        & > h2 {
+            line-height: 60px;
+            font-size: 33px;
+        }
+
+        & p {
+            margin-bottom: 20px;
+            width: 100%;
+            line-height: 23px;
+            font-size: 15px;
+        }
+    }
 `;
 
 export const buttonBox = css`
@@ -94,6 +110,15 @@ export const buttonBox = css`
     }
 
     ${media.mobile} {
+        width: 40%;
+
+        & > button {
+            padding: 5px 0;
+            font-size: 18px;
+        }
+    }
+
+    ${media.mobileLandscape} {
         width: 40%;
 
         & > button {

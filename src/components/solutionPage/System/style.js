@@ -77,4 +77,12 @@ export const imgBox = css`
             aspect-ratio: 160 / 77;
         }
     }
+
+    ${media.mobileLandscape} {
+        padding: 60px 20px 100px;
+
+        & > img {
+            aspect-ratio: 160 / 77;
+        }
+    }
 `;

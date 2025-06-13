@@ -23,7 +23,7 @@ function CommonSelect({ title }) {
     }, [title, location.pathname]);
 
     useEffect(() => {
-        setSelectedSubMenu(selectedMenu?.submenu?.find(menu => window.location.pathname.split("/")[2] === (menu.path.split("/")[2])))
+        setSelectedSubMenu(selectedMenu?.submenu?.find(menu => window.location.pathname.startsWith(menu.path)))
     }, [selectedMenu, location.pathname])
 
     useEffect(() => {
@@ -34,10 +34,11 @@ function CommonSelect({ title }) {
             if (foundAiMenu) {
                 setSelectAiMenu(foundAiMenu);
             }
+        } else {
+            setSelectAiMenu({});
         }
     }, [selectedSubMenu, location.pathname])
-    console.log(selectedSubMenu?.path?.split("/"))
-    console.log(selectedAiMenu)
+
     const handleSelectMenuOnClick = (menu) => {
         setSelectedMenu(menu)
         nav(menu.path)

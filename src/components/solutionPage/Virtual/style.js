@@ -38,7 +38,7 @@ export const virtualBox = css`
         position: absolute;
         top: 28px;
         left: 0;
-        border-radius: 10%;
+        border-radius: 10px;
         width: 8px;
         height: 50%;
         background-size: cover;
@@ -52,6 +52,25 @@ export const virtualBox = css`
     }
 
     ${media.mobile} {
+        padding: 40px 20px;
+        
+        & > h2 {
+            padding-bottom: 15px;
+            line-height: 26px;
+            font-size: 16px;
+        }
+            
+        & > p {
+            line-height: 26px;
+            font-size: 15px;
+        }
+    
+        & > p::before {
+            height: 30%;
+        }
+    }
+
+    ${media.mobileLandscape} {
         padding: 40px 20px;
         
         & > h2 {

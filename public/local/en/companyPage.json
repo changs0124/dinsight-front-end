@@ -2,42 +2,148 @@
     "companyPage": {
         "company": {
             "title": "Through various government-related tasks,",
-            "context": "Dinsight Co., Ltd. serves as a catalyst for digital transformation among companies in the Gyeongnam region through various government projects, aiming to grow into a specialized digital total solutions provider."
+            "context": "Dinsight Co., Ltd. serves as a catalyst for digital transformation among companies in the Gyeongnam region through various government projects, aiming to grow into a specialized digital total solutions provider.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/companyPage/company-img01-360.png",
+                        "ratio": "37 / 19"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/companyPage/company-img01.png",
+                        "ratio": "65 / 21"
+                    }
+                ]
+            }
         },
         "solution": {
             "title": "Providing digital twin solutions, systems engineering, and AI solutions",
-            "context": "By providing solutions for work efficiency, accident prevention, virtual product creation, and digital showrooms, we deliver the highest value to our customers."
+            "context": "By providing solutions for work efficiency, accident prevention, virtual product creation, and digital showrooms, we deliver the highest value to our customers.",
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/companyPage/company-img02-360.png",
+                        "ratio": "37 / 21"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/companyPage/company-img02.png",
+                        "ratio": "230 / 107"
+                    }
+                ]
+            }
         },
         "info": [
             {
                 "name": "Company Name",
                 "value": "D Insight Co., Ltd",
-                "img": "/images/companyPage/company-ico01.png"
+                "img": {
+                    "mobile": [
+                        {
+                            "path": "/images/companyPage/company-ico01-360.png",
+                            "ratio": "57 / 64"
+                        }
+                    ],
+                    "desktop": [
+                        {
+                            "path": "/images/companyPage/company-ico01.png",
+                            "ratio": "57 / 64"
+                        }
+                    ]
+                }
             },
             {
                 "name": "CEO",
                 "value": "Cho Jaesang",
-                "img": "/images/companyPage/company-ico02.png"
+                "img": {
+                    "mobile": [
+                        {
+                            "path": "/images/companyPage/company-ico02-360.png",
+                            "ratio": "63 / 68"
+                        }
+                    ],
+                    "desktop": [
+                        {
+                            "path": "/images/companyPage/company-ico02.png",
+                            "ratio": "63 / 68"
+                        }
+                    ]
+                }
             },
             {
                 "name": "Establishment Date",
                 "value": "November 27, 2020",
-                "img": "/images/companyPage/company-ico03.png"
+                "img": {
+                    "mobile": [
+                        {
+                            "path": "/images/companyPage/company-ico03-360.png",
+                            "ratio": "64 / 63"
+                        }
+                    ],
+                    "desktop": [
+                        {
+                            "path": "/images/companyPage/company-ico03.png",
+                            "ratio": "64 / 63"
+                        }
+                    ]
+                }
             },
             {
                 "name": "Employees",
                 "value": "5",
-                "img": "/images/companyPage/company-ico04.png"
+                "img": {
+                    "mobile": [
+                        {
+                            "path": "/images/companyPage/company-ico04-360.png",
+                            "ratio": "8 / 9"
+                        }
+                    ],
+                    "desktop": [
+                        {
+                            "path": "/images/companyPage/company-ico04.png",
+                            "ratio": "29 / 18"
+                        }
+                    ]
+                }
             },
             {
                 "name": "Main Products",
                 "value": "Digital twin, systems engineering, AI solutions",
-                "img": "/images/companyPage/company-ico05.png"
+                "img": {
+                    "mobile": [
+                        {
+                            "path": "/images/companyPage/company-ico05-360.png",
+                            "ratio": "33 / 34"
+                        }
+                    ],
+                    "desktop": [
+                        {
+                            "path": "/images/companyPage/company-ico05.png",
+                            "ratio": "33 / 34"
+                        }
+                    ]
+                }
             },
             {
                 "name": "Branches",
                 "value": "1 location in Korea",
-                "img": "/images/companyPage/company-ico06.png"
+                "img": {
+                    "mobile": [
+                        {
+                            "path": "/images/companyPage/company-ico06-360.png",
+                            "ratio": "1 / 1"
+                        }
+                    ],
+                    "desktop": [
+                        {
+                            "path": "/images/companyPage/company-ico06.png",
+                            "ratio": "1 / 1"
+                        }
+                    ]
+                }
             }
         ],
         "ideology": {

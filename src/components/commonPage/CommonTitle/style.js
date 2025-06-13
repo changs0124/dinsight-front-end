@@ -10,6 +10,10 @@ export const layout = css`
     ${media.mobile} {
         padding: 90px 20px 20px;
     }
+
+    ${media.mobileLandscape} {
+        padding: 90px 20px 20px;
+    }
 `;
 
 export const defaultContainer = css`
@@ -27,6 +31,13 @@ export const defaultContainer = css`
     }
 
     ${media.mobile} {
+        & > h2 {
+            line-height: 45px;
+            font-size: 45px;
+        }
+    }
+
+    ${media.mobileLandscape} {
         & > h2 {
             line-height: 45px;
             font-size: 45px;
@@ -54,6 +65,13 @@ export const container = css`
     }
 
     ${media.mobile} {
+        & > h2 {
+            line-height: 45px;
+            font-size: 40px;
+        }
+    }
+
+    ${media.mobileLandscape} {
         & > h2 {
             line-height: 45px;
             font-size: 40px;

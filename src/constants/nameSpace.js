@@ -11,5 +11,10 @@ export const NAME_SPACE = [
     "motion",
     "virtual",
     "system",
-    "ai"
+    "ai",
+    "onepart",
+    "performance",
+    "refusal",
+    "policy",
+    "contact"
 ];

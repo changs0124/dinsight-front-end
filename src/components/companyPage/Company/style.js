@@ -6,6 +6,14 @@ export const layout = css`
     display: flex;
     flex-direction: column;
     width: 100%;
+
+    & > img {
+            width: 90%;
+    }
+`;
+
+export const imgItem = (ratio) => css`
+    aspect-ratio: ${ratio};
 `;
 
 export const companyBox = css`
@@ -16,9 +24,10 @@ export const companyBox = css`
     width: 100%;
 
     & > h2 {
-        margin-bottom: 35px;
+        padding-bottom: 35px;
         font-size: 40px;
         font-weight: 700;
+        white-space: pre-line;
     }
 
     & > p {
@@ -33,7 +42,21 @@ export const companyBox = css`
         padding: 30px 20px;
 
         & > h2 {
-            margin-bottom: 15px;
+            padding-bottom: 15px;
+            font-size: 25px;
+        }
+
+        & > p {
+            line-height: 26px;
+            font-size: 15px;
+        }
+    }
+
+    ${media.mobileLandscape} {
+        padding: 30px 20px;
+
+        & > h2 {
+            padding-bottom: 15px;
             font-size: 25px;
         }
 
@@ -55,22 +78,37 @@ export const solutionContainer = css`
 
     ${media.mobile} {
         flex-direction: column;
+        align-items: end;
         padding: 90px 0px;
+
+        & > img {
+            width: 90%;
+        };
+    }
+
+    ${media.mobileLandscape} {
+        flex-direction: column;
+        align-items: end;
+        padding: 90px 0px;
+
+        & > img {
+            width: 90%;
+        };
     }
 `;
 
-export const solutiondBox = (lan) => css`
+export const solutiondBox = css`
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #F9FAFB;
-    padding-right: 100px;
+    padding-right: 50px;
     width: 35%;
 
     & > h2 {
         padding-bottom: 70px;
-        width: ${lan === "ko" ? "55%" : "100%"};
+        width: 100%;
         line-height: 56px;
         font-size: 36px;
         font-weight: 700;
@@ -89,6 +127,27 @@ export const solutiondBox = (lan) => css`
 
         & > h2 {
             padding-bottom: 20px;
+            width: 100%;
+            line-height: 30px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        & > p {
+            box-sizing: border-box;
+            padding-bottom: 30px;
+            width: 100%;
+            line-height: 20px;
+            font-size: 16px;
+        }
+    }
+
+    ${media.mobileLandscape} {
+        padding: 0px 30px;
+        width: 100%;
+
+        & > h2 {
+            padding-bottom: 20px;
             width: 90%;
             line-height: 30px;
             font-size: 20px;
@@ -102,25 +161,6 @@ export const solutiondBox = (lan) => css`
             line-height: 20px;
             font-size: 16px;
         }
-        
-    }
-`;
-
-export const imgBox = (url) => css`
-    box-sizing: border-box;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    padding: 70px;
-    width: 100%;
-    aspect-ratio: 37 / 21;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(${url});
-
-    ${media.mobile} {
-        align-self: flex-end;
-        width: 80%;
     }
 `;
 
@@ -159,7 +199,6 @@ export const infoContainer = css`
         display: flex;
         flex-direction: column;
         padding: 20px;
-        aspect-ratio: 480 / 169;
 
         & > :nth-of-type(1) {
             border: none;
@@ -185,6 +224,38 @@ export const infoContainer = css`
             border-bottom: 1px solid #bbbbbb;
         }
     }
+
+    ${media.mobileLandscape} {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 55px 70px;
+
+        & > :nth-of-type(1) {
+            border: none;
+            border-right: 1px solid #bbbbbb;
+            border-bottom: 1px solid #bbbbbb;
+        }
+
+        & > :nth-of-type(2) {
+            border: none;
+            border-bottom: 1px solid #bbbbbb;
+        }
+
+        & > :nth-of-type(3) {
+            border: none;
+            border-right: 1px solid #bbbbbb;
+            border-bottom: 1px solid #bbbbbb;
+        }
+
+        & > :nth-of-type(4) {
+            border-bottom: 1px solid #bbbbbb;
+        }
+
+        & > :nth-of-type(5) {
+            border: none;
+            border-right: 1px solid #bbbbbb;
+        } 
+    }
 `;
 
 export const infoBox = css`
@@ -195,50 +266,54 @@ export const infoBox = css`
     align-items: center;
     text-align: center;
 
-    & > img {
-        margin-bottom: 15px;
+    ${media.mobile} {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 15px 0px;
+
+        & > img {
+            padding-right: 20px;
+        }
+    }
+`;
+
+export const infoItem = css`
+    box-sizing: border-box;
+    
+    & > h2 {
+        padding-bottom: 10px;
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 600;
     }
 
-    & > div {
+    & > p {
+        line-height: 40px;
+        color: #ffffff;
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+
+    ${media.mobile} {
+        padding: 10px 0px;
+
         & > h2 {
-            padding-bottom: 10px;
-            color: #ffffff;
-            font-size: 22px;
-            font-weight: 600;
+        text-align: left;
+        padding-bottom: 0px;
+        font-size: 18px;
         }
 
         & > p {
-            line-height: 40px;
-            color: #ffffff;
-            font-size: 27px;
-            font-weight: 600;
+            display: flex;
+            text-align: left;
+            line-height: 25px;
+            font-size: 18px;
         }
     }
 
-    ${media.mobile} {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
+    ${media.mobileLandscape} {
         padding: 10px 0px;
-
-        & > img {
-            padding: 0px 40px 0px 10px;
-        }
-
-        & > div {
-            & > h2 {
-                text-align: left;
-                padding-bottom: 0px;
-                font-size: 18px;
-            }
-
-            & > p {
-                display: flex;
-                text-align: left;
-                font-size: 18px;
-            }
-        }
     }
 `;
 
@@ -272,6 +347,24 @@ export const ideologyBox = css`
                 width: 100%;
             }
         }
-       
+    }
+
+    ${media.mobileLandscape} {
+        padding: 80px 20px 100px;
+
+        & > h2 {
+            padding-bottom: 40px;
+            text-align: left;
+            font-size: 24px;
+        }
+
+        & > picture {
+            display: flex;
+            justify-content: center;
+            
+            & > img {
+                width: 100%;
+            }
+        }  
     }
 `; 

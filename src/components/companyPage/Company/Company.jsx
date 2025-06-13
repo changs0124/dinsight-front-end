@@ -10,27 +10,54 @@ function Company() {
     return (
         <div css={s.layout}>
             <CommonTitle title={tHeader("header.0.title")} />
-            <picture>
-                <source srcSet="/images/companyPage/company-img01-360.png" media="(max-width: 430px)" />
-                <img src="/images/companyPage/company-img01.png" alt="" />
-            </picture>
+            {
+                window.matchMedia("(max-width: 640px)").matches
+                    ?
+                    tCompany("companyPage.company.img.mobile", { returnObjects: true })?.map((img, idx) => (
+                        <img key={idx} css={s.imgItem(img.ratio)} src={img.path} />
+                    ))
+                    :
+                    tCompany("companyPage.company.img.desktop", { returnObjects: true })?.map((img, idx) => (
+                        <img key={idx} css={s.imgItem(img.ratio)} src={img.path} />
+                    ))
+            }
             <div css={s.companyBox}>
                 <h2>{tCompany("companyPage.company.title")}</h2>
                 <p>{tCompany("companyPage.company.context")}</p>
             </div>
             <div css={s.solutionContainer}>
-                <div css={s.solutiondBox(localStorage.getItem("i18nextLng"))}>
+                <div css={s.solutiondBox}>
                     <h2>{tCompany("companyPage.solution.title")}</h2>
                     <p>{tCompany("companyPage.solution.context")}</p>
                 </div>
-                <div css={s.imgBox("/images/companyPage/company-img02.png")} />
+                {
+                    window.matchMedia("(max-width: 640px)").matches
+                        ?
+                        tCompany("companyPage.solution.img.mobile", { returnObjects: true })?.map((img, idx) => (
+                            <img key={idx} css={s.imgItem(img.ratio)} src={img.path} />
+                        ))
+                        :
+                        tCompany("companyPage.solution.img.desktop", { returnObjects: true })?.map((img, idx) => (
+                            <img key={idx} css={s.imgItem(img.ratio)} src={img.path} />
+                        ))
+                }
             </div>
             <div css={s.infoContainer}>
                 {
-                    tCompany("companyPage.info", { returnObjects: true }).map((info, idx) => (
+                    tCompany("companyPage.info", { returnObjects: true })?.map((info, idx) => (
                         <div key={idx} css={s.infoBox}>
-                            <img src={info.img} alt="" />
-                            <div>
+                            {
+                                window.matchMedia("(max-width: 640px)").matches
+                                    ?
+                                    info.img.mobile?.map((img, idx) => (
+                                        <img key={idx} css={s.imgItem(img.ratio)} src={img.path} />
+                                    ))
+                                    :
+                                    info.img.desktop?.map((img, idx) => (
+                                        <img key={idx} css={s.imgItem(img.ratio)} src={img.path} />
+                                    ))
+                            }
+                            <div css={s.infoItem}>
                                 <h2>{info.name}</h2>
                                 <p>{info.value}</p>
                             </div>

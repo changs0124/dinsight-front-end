@@ -32,7 +32,7 @@ export const layout = css`
         font-size: 30px;
     }
 
-    ${media.mobile} {
+    ${media.mobile}, ${media.mobileLandscape} {
         width: 50%;
 
         & > button {

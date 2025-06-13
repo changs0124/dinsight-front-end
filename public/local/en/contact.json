@@ -1,0 +1,28 @@
+{
+    "contact": {
+        "type": "Inquiry Type",
+        "defaultType": "Select the type of inquiry",
+        "types": [
+            "3D Modeling",
+            "Motion Simulation",
+            "Virtual Reality Contetns",
+            "System Engineering",
+            "AI Solution"
+        ],
+        "company": "Company",
+        "tel": "Tel",
+        "name": "name",
+        "email": "Email",
+        "title": "Title",
+        "defaultTitle": "Title",
+        "content": "Contents",
+        "context": [
+            "Consent to the Collection and Use of Personal Information (Required)",
+            "1. Purpose: Provision of responses for customer inquiries and management of inquiry status\n2. Collection Items: Name, contact information, e-mail address, company(affiliation)\n3. Retention Period: For 36 months from the date on which the consent is given\nYou have the right to refuse to provide consent to the collection and use of\nyour personal information. However, please note that if you fail to provide consent,\nthe submission of your inquiry will be restricted."
+        ],
+        "check": "I agree to the collection and use of personal information.",
+        "prevent": "Prevent automatic registration",
+        "register": "Please enter the verification numbers in order.",
+        "send": "Submit"
+    }
+}

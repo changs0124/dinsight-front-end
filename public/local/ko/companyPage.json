@@ -40,37 +40,128 @@
             {
                 "name": "회사명",
                 "value": "주식회사 디인사이트",
-                "img": "/images/companyPage/company-ico01.png"
+                "img": {
+                    "mobile": [
+                        {
+                            "path": "/images/companyPage/company-ico01-360.png",
+                            "ratio": "57 / 64"
+                        }
+                    ],
+                    "desktop": [
+                        {
+                            "path": "/images/companyPage/company-ico01.png",
+                            "ratio": "57 / 64"
+                        }
+                    ]
+                }
             },
             {
                 "name": "대표이사",
                 "value": "조재상",
-                "img": "/images/companyPage/company-ico02.png"
+                "img": {
+                    "mobile": [
+                        {
+                            "path": "/images/companyPage/company-ico02-360.png",
+                            "ratio": "63 / 68"
+                        }
+                    ],
+                    "desktop": [
+                        {
+                            "path": "/images/companyPage/company-ico02.png",
+                            "ratio": "63 / 68"
+                        }
+                    ]
+                }
             },
             {
                 "name": "설립일",
-                "value": "2020년 11월 27일",
-                "img": "/images/companyPage/company-ico03.png"
+                "value": "202년 11월 27일",
+                "img": {
+                    "mobile": [
+                        {
+                            "path": "/images/companyPage/company-ico03-360.png",
+                            "ratio": "64 / 63"
+                        }
+                    ],
+                    "desktop": [
+                        {
+                            "path": "/images/companyPage/company-ico03.png",
+                            "ratio": "64 / 63"
+                        }
+                    ]
+                }
             },
             {
                 "name": "종업원수",
                 "value": "5명",
-                "img": "/images/companyPage/company-ico04.png"
+                "img": {
+                    "mobile": [
+                        {
+                            "path": "/images/companyPage/company-ico04-360.png",
+                            "ratio": "8 / 9"
+                        }
+                    ],
+                    "desktop": [
+                        {
+                            "path": "/images/companyPage/company-ico04.png",
+                            "ratio": "29 / 18"
+                        }
+                    ]
+                }
             },
             {
                 "name": "주요생산품",
                 "value": "디지털트윈, 시스템 엔지니어링, AI 솔루션",
-                "img": "/images/companyPage/company-ico05.png"
+                "img": {
+                    "mobile": [
+                        {
+                            "path": "/images/companyPage/company-ico05-360.png",
+                            "ratio": "33 / 34"
+                        }
+                    ],
+                    "desktop": [
+                        {
+                            "path": "/images/companyPage/company-ico05.png",
+                            "ratio": "33 / 34"
+                        }
+                    ]
+                }
             },
             {
                 "name": "소재지",
                 "value": "국내 1개",
-                "img": "/images/companyPage/company-ico06.png"
+                "img": {
+                    "mobile": [
+                        {
+                            "path": "/images/companyPage/company-ico06-360.png",
+                            "ratio": "1 / 1"
+                        }
+                    ],
+                    "desktop": [
+                        {
+                            "path": "/images/companyPage/company-ico06.png",
+                            "ratio": "1 / 1"
+                        }
+                    ]
+                }
             }
         ],
         "ideology": {
             "title": "경영이념",
-            "img": "/images/companyPage/company-img03.png"
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/companyPage/company-img03-eng.png",
+                        "ratio": "323 / 490"
+                    }
+                ],
+                "desktop": [
+                    {
+                        "path": "/images/companyPage/company-img03-eng.png",
+                        "ratio": "1199 / 322"
+                    }
+                ]
+            }
         }
     }
 }

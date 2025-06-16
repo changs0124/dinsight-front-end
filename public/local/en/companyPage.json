@@ -148,7 +148,20 @@
         ],
         "ideology": {
             "title": "Management Philosophy",
-            "img": "/images/companyPage/company-img03-eng.png"
+            "img": {
+                "mobile": [
+                    {
+                        "path": "/images/companyPage/company-img03-eng.png",
+                        "ratio": "323 / 490"
+                    }
+                ],
+                 "desktop": [
+                    {
+                        "path": "/images/companyPage/company-img03-eng.png",
+                        "ratio": "1199 / 322"
+                    }
+                ]
+            }
         }
     }
 }

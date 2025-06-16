@@ -26,21 +26,19 @@
         ],
         "secondTitle": "We provide a rendering solution that may bring a model closer to reality by\napplying material/texture and light source effects to high-precision 3D models created with CATIA in Unreal.",
         "secondContext": "Realistic models can be created by importing 3D CAD-designed files into Unreal and applying material and texture effects.",
-        "img": [
-            {
-                "mobile": [
-                    {
-                        "path": "/images/solutionPage/model/model-cont02-img01-770.png",
-                        "ratio": "320 / 237"
-                    }
-                ],
-                "desktop": [
-                    {
-                        "path": "/images/solutionPage/model/model-cont02-img01.png",
-                        "ratio": "1221 / 485"
-                    }
-                ]
-            }
-        ]
+        "img": {
+            "mobile": [
+                {
+                    "path": "/images/solutionPage/model/model-cont02-img01-770.png",
+                    "ratio": "320 / 237"
+                }
+            ],
+            "desktop": [
+                {
+                    "path": "/images/solutionPage/model/model-cont02-img01.png",
+                    "ratio": "1221 / 485"
+                }
+            ]
+        }
     }
 }

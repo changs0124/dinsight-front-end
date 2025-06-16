@@ -21,7 +21,7 @@ export const solContainer = css`
     display: flex;
     flex-direction: column;
     border-radius: 0 30px 30px 0;
-    padding: 150px 100px 400px;
+    padding: 150px 120px 300px;
     width: 45%;
     aspect-ratio: 793 / 1084;
     background-size: cover;
@@ -47,7 +47,7 @@ export const titleAndContext = css`
     width: 100%;
 
     & > h2 {
-        margin-bottom: 20px;
+        margin-bottom: 25px;
         color: #ffffff;
         font-size: 70px;
         font-weight: 900;
@@ -57,17 +57,18 @@ export const titleAndContext = css`
         box-sizing: border-box;
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         width: 100%;
         color: #ffffff;
         line-height: 30px;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 500;
+        white-space: pre-line;
     }
 
     ${media.mobile} {
         & > h2 {
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             line-height: 60px;
             font-size: 33px;    
         }
@@ -98,7 +99,6 @@ export const solutionBox = css`
     box-sizing: border-box;
     position: relative;
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
@@ -139,8 +139,6 @@ export const solutionItem = (idx, index) => css`
         cursor: pointer;
     }
 
-   
-
     ${media.mobile} {
         & > p {
             padding: 10px 0px;
@@ -167,13 +165,6 @@ export const detailContainer = css`
     padding: 150px 100px;
     width: 55%;
 
-    & > img {
-        margin-bottom: 30px;
-        border-radius: 20px;
-        width: 100%;
-        aspect-ratio: 797 / 494;
-    }
-
     & > h2 {
         margin-bottom: 20px;
         color: #007bff;
@@ -188,6 +179,7 @@ export const detailContainer = css`
         text-align: center;
         line-height: 36px;
         font-size: 21px;
+        white-space: pre-line;
     }
 
     ${media.mobile} {
@@ -220,5 +212,22 @@ export const detailContainer = css`
             line-height: 27px;
             font-size: 16px;
         }
+    }
+`;
+
+export const imgBox = css`
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    width: 100%;
+    aspect-ratio: 797 / 494;
+
+    & > img {
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
     }
 `;

@@ -47,7 +47,6 @@ export const selectBox = (isShow) => css`
     align-items: center;
     padding: 0px 20px;
     width: 20%;
-
     cursor: pointer;
 
     & > svg {
@@ -63,6 +62,7 @@ export const selectBox = (isShow) => css`
         width: 100%;
         line-height: 30px;
         font-size: 20px;
+        cursor: pointer;
     }
 
     ${media.mobileLandscape} {
@@ -94,9 +94,7 @@ export const optionBox = (isShow, length) => css`
         display: flex;
         padding: 10px 20px;
         width: 100%;
-
         font-size: 20px;
-
         cursor: pointer;
 
         :hover {

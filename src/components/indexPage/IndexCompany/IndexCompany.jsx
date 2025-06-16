@@ -14,31 +14,20 @@ function IndexCompany() {
                 </div>
                 <div css={s.body}>
                     <div css={s.companyBox(t("indexCompany.companyBox.onImg"), t("indexCompany.companyBox.offImg"))} onClick={() => window.location.href = t("indexCompany.companyBox.path")}>
-                        <div />
+                        <div></div>
                         <h2>{t("indexCompany.companyBox.title")}</h2>
                         <p>{t("indexCompany.companyBox.context")}</p>
                     </div>
                     <div css={s.ectBox}>
-                        <div css={s.ectItem(t("indexCompany.historyBox.onImg"), t("indexCompany.historyBox.offImg"))} onClick={() => window.location.href = t("indexCompany.historyBox.path")}>
-                            <div />
-                            <h2>{t("indexCompany.historyBox.title")}</h2>
-                            <p>{t("indexCompany.historyBox.context")}</p>
-                        </div>
-                        <div css={s.ectItem(t("indexCompany.technicalBox.onImg"), t("indexCompany.technicalBox.offImg"))} onClick={() => window.location.href = t("indexCompany.technicalBox.path")}>
-                            <div />
-                            <h2>{t("indexCompany.technicalBox.title")}</h2>
-                            <p>{t("indexCompany.technicalBox.context")}</p>
-                        </div>
-                        <div css={s.ectItem(t("indexCompany.referenceBox.onImg"), t("indexCompany.referenceBox.offImg"))} onClick={() => window.location.href = t("indexCompany.referenceBox.path")}>
-                            <div />
-                            <h2>{t("indexCompany.referenceBox.title")}</h2>
-                            <p>{t("indexCompany.referenceBox.context")}</p>
-                        </div>
-                        <div css={s.ectItem(t("indexCompany.directionsBox.onImg"), t("indexCompany.directionsBox.offImg"))} onClick={() => window.location.href = t("indexCompany.directionsBox.path")}>
-                            <div />
-                            <h2>{t("indexCompany.directionsBox.title")}</h2>
-                            <p>{t("indexCompany.directionsBox.context")}</p>
-                        </div>
+                        {
+                            t("indexCompany.ectBox", { returnObjects: true })?.map((item, idx) => (
+                                <div css={s.ectItem(item.onImg, item.offImg)} onClick={() => window.location.href = item.path}>
+                                    <div></div>
+                                    <h2>{item.title}</h2>
+                                    <p>{item.context}</p>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
             </div>

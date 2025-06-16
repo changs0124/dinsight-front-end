@@ -12,7 +12,7 @@ function IndexSolution() {
     const handleSolutionOnOver = (idx) => {
         setIndex(idx)
     }
-    console.log(index)
+
     return (
         <div css={s.layout}>
             <div css={s.solContainer}>
@@ -23,7 +23,7 @@ function IndexSolution() {
                 <div css={s.solutionBox}>
                     <p></p>
                     {
-                        t("indexSolution.solutions", { returnObjects: true }).map((sol, idx) => (
+                        t("indexSolution.solutions", { returnObjects: true })?.map((sol, idx) => (
                             <div key={idx} css={s.solutionItem(idx, index)} onMouseOver={() => handleSolutionOnOver(idx)}>
                                 <div></div>
                                 <p>
@@ -35,7 +35,9 @@ function IndexSolution() {
                 </div>
             </div>
             <div css={s.detailContainer}>
-                <img src={t("indexSolution.solutions", { returnObjects: true })[index].img} />
+                <div css={s.imgBox}>
+                    <img src={t("indexSolution.solutions", { returnObjects: true })[index].img} />
+                </div>
                 <h2>{t("indexSolution.solutions", { returnObjects: true })[index].title}</h2>
                 <p>{t("indexSolution.solutions", { returnObjects: true })[index].context}</p>
                 <LinkButton onClick={() => window.location.href = t("indexSolution.solutions", { returnObjects: true })[index].path} />

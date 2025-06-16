@@ -1,41 +1,43 @@
 {
     "indexCompany": {
         "title": "About Dinsight",
-        "context": "디인사이트는 디지털트윈 솔루션, AI 솔루션 기술을 바탕으로 3D 모델링, XR 컨텐츠 제작, 시뮬레이션, 시스템 엔지니어링 등 기업 혁신 성장을 위한 맞춤 솔루션을 제공하는 연구개발특구 내 설립된 연구소기업입니다.",
+        "context": "디인사이트는 디지털트윈 솔루션, AI 솔루션 기술을 바탕으로 3D 모델링,\nXR 컨텐츠 제작, 시뮬레이션, 시스템 엔지니어링 등 기업 혁신 성장을 위한\n맞춤 솔루션을 제공하는 연구개발특구 내 설립된 연구소기업입니다.",
         "companyBox": {
             "title": "회사소개",
             "context": "(주)디인사이트는 연구개발특구 내 설립된 연구소 기업입니다.",
-            "path": "/company",
+            "path": "/company/info",
             "onImg": "/images/indexPage/indexCompany/about0_on.png",
             "offImg": "/images/indexPage/indexCompany/about0_off.png"
         },
-        "historyBox": {
-            "title": "연혁",
-            "context": "2020년 법인 설립",
-            "path": "/company/history",
-            "onImg": "/images/indexPage/indexCompany/about02_on.png",
-            "offImg": "/images/indexPage/indexCompany/about02_off.png"
-        },
-        "technicalBox": {
-            "title": "기술",
-            "context": "특허 및 인증",
-            "path": "/tech/certificate",
-            "onImg": "/images/indexPage/indexCompany/about03_on.png",
-            "offImg": "/images/indexPage/indexCompany/about03_off.png"
-        },
-        "referenceBox": {
-            "title": "자료실",
-            "context": "솔루션 관련 자료",
-            "path": "/support/resource",
-            "onImg": "/images/indexPage/indexCompany/about04_on.png",
-            "offImg": "/images/indexPage/indexCompany/about04_off.png"
-        },
-        "directionsBox": {
-            "title": "오시는 길",
-            "context": "1개 지점 안내",
-            "path": "/company/direction",
-            "onImg": "/images/indexPage/indexCompany/about05_on.png",
-            "offImg": "/images/indexPage/indexCompany/about05_off.png"
-        }
+        "ectBox": [
+            {
+                "title": "연혁",
+                "context": "2020년 법인 설립",
+                "path": "/company/history",
+                "onImg": "/images/indexPage/indexCompany/about02_on.png",
+                "offImg": "/images/indexPage/indexCompany/about02_off.png"
+            },
+            {
+                "title": "기술",
+                "context": "특허 및 인증",
+                "path": "/tech/certificate",
+                "onImg": "/images/indexPage/indexCompany/about03_on.png",
+                "offImg": "/images/indexPage/indexCompany/about03_off.png"
+            },
+            {
+                "title": "자료실",
+                "context": "솔루션 관련 자료",
+                "path": "/support/resource",
+                "onImg": "/images/indexPage/indexCompany/about04_on.png",
+                "offImg": "/images/indexPage/indexCompany/about04_off.png"
+            },
+            {
+                "title": "오시는 길",
+                "context": "1개 지점 안내",
+                "path": "/company/direction",
+                "onImg": "/images/indexPage/indexCompany/about05_on.png",
+                "offImg": "/images/indexPage/indexCompany/about05_off.png"
+            }
+        ]
     }
 }

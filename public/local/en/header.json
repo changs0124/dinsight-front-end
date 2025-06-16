@@ -1,24 +1,38 @@
 {
+    "logo" : {
+        "mobile": [
+            {
+                "path": "/images/header/logo4_360.png",
+                "ratio": "11 / 5"
+            }
+        ],
+        "desktop": [
+            {
+                "path": "/images/header/logo4.png",
+                "ratio": "125 / 57"
+            }
+        ]
+    },
     "header": [
         {
-            "path": "/company",
+            "path": "/company/info",
             "title": "Company",
             "img": "/images/commonPage/banner-bg.jpg",
-            "submenu": [
+            "menu": [
                 {
-                    "path": "/company",
+                    "path": "/company/info",
                     "title": "Company",
-                    "submenu": []
+                    "menu": []
                 },
                 {
                     "path": "/company/history",
                     "title": "History",
-                    "submenu": []
+                    "menu": []
                 },
                 {
                     "path": "/company/direction",
                     "title": "Direction",
-                    "submenu": []
+                    "menu": []
                 }
             ]
         },
@@ -26,32 +40,32 @@
             "path": "/solution/3dmodel",
             "title": "Solution",
             "img": "/images/commonPage/banner-bg02.jpg",
-            "submenu": [
+            "menu": [
                 {
                     "path": "/solution/3dmodel",
                     "title": "3D Modeling",
-                    "submenu": []
+                    "menu": []
                 },
                 {
                     "path": "/solution/motion",
                     "title": "Motion Simulation",
-                    "submenu": []
+                    "menu": []
 
                 },
                 {
                     "path": "/solution/virtual",
                     "title": "Virtual Reality Contents",
-                    "submenu": []
+                    "menu": []
                 },
                 {
                     "path": "/solution/sys",
                     "title": "System Engineering",
-                    "submenu": []
+                    "menu": []
                 },
                 {
                     "path": "/solution/ai",
                     "title": "AI Solution",
-                    "submenu": [
+                    "menu": [
                         {
                             "path": "/solution/ai",
                             "title": "AI Solution"
@@ -68,11 +82,11 @@
             "path": "/tech/certificate",
             "title": "Technical",
             "img": "/images/commonPage/banner-bg03.jpg",
-            "submenu": [
+            "menu": [
                 {
                     "path": "/tech/certificate",
                     "title": "Patents and Certifacations",
-                    "submenu": []
+                    "menu": []
                 }
             ]
         },
@@ -80,11 +94,11 @@
             "path": "/business/performance",
             "title": "Business",
             "img": "/images/commonPage/banner-bg04.jpg",
-            "submenu": [
+            "menu": [
                 {
                     "path": "/business/performance",
                     "title": "Performance",
-                    "submenu": []
+                    "menu": []
                 }
             ]
         },
@@ -92,16 +106,16 @@
             "path": "/support/resource",
             "title": "Support",
             "img": "/images/commonPage/banner-bg05.jpg",
-            "submenu": [
+            "menu": [
                 {
                     "path": "/support/resource",
                     "title": "Resource",
-                    "submenu": []
+                    "menu": []
                 },
                 {
                     "path": "/support/contact",
                     "title": "Contact",
-                    "submenu": []
+                    "menu": []
                 }
             ]
         }

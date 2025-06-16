@@ -7,13 +7,13 @@ import { useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper/modules';
-import { INDEX_SLIDE } from '../../../constants/imgs';
 
 function IndexSwiper() {
-    const { t } = useTranslation("indexSwiper");
     const ref = useRef();
+    const { t } = useTranslation("indexSwiper");
 
     const [index, setIndex] = useState(0);
+
     return (
         <div css={s.layout}>
             <Swiper
@@ -26,9 +26,9 @@ function IndexSwiper() {
                 style={{ width: "100%", height: "100%" }}
             >
                 {
-                    INDEX_SLIDE?.map((url, idx) => (
+                    t("indexSwiper.img", { returnObjects: true })?.map((path, idx) => (
                         <SwiperSlide key={idx}>
-                            <div css={s.container(url)}>
+                            <div css={s.container(path)}>
                                 <div css={s.textBox(idx, index)}>
                                     <h2>{t('indexSwiper.title')}</h2>
                                     <p>{t('indexSwiper.subtitle')}</p>

@@ -7,7 +7,6 @@ export const layout = css`
     position: relative;
     display: flex;
     width: 100%;
-    aspect-ratio: 128 / 65;
     margin-bottom: 30px;
 
     ${media.mobile} {
@@ -19,15 +18,15 @@ export const layout = css`
     }
 `;
 
-export const container = (url) =>  css`
+export const container = (path) =>  css`
     box-sizing: border-box;
     display: flex;
     width: 100%;
-    min-height: 100vh;
+    aspect-ratio: 128 / 65;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(${url});
+    background-image: url(${path});
     animation: ${zoomInSlow} 10s ease-in-out infinite;
 
     ${media.mobile} {
@@ -68,6 +67,7 @@ export const textBox = (idx, index) => css`
         line-height: 40px;
         color: #ffffff;
         font-size: 24px;
+        white-space: pre-line;
         animation: ${idx === index && slideUpP} 1s ease-out 0.5s forwards;
         opacity: 0;
     }

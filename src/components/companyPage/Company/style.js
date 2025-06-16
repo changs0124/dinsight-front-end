@@ -175,6 +175,7 @@ export const infoContainer = css`
     background-position: center;
     background-repeat: no-repeat;
     background: url("/images/companyPage/company-cont03-bg.png");
+    white-space: pre-line;
 
     & > :nth-of-type(1) {
         border-bottom: 1px solid #bbbbbb;

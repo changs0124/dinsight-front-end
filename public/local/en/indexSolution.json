@@ -1,37 +1,37 @@
 {
     "indexSolution": {
         "title": "Our Solutions",
-        "context": "Through product digitalization, we will aim to enhance customer value by delivering digital assets such as virtual education, technical data, and promotional content.",
+        "context": "Through product digitalization, we will aim\nto enhance customer value by delivering\ndigital assets such as virtual education,\ntechnical data, and promotional content",
         "detailButton": "View More",
         "solutions": [
             {
                 "path": "/solution/3dmodel",
                 "title": "3D Modeling",
-                "context": "Supplying enginners with high-precision 3D models created with CATIA and 2D drawings is a feasible way of enhancing their comprehension and data reuse.",
+                "context": "Supplying enginners with high-precision 3D models created with CATIA and 2D\ndrawings is a feasible way of enhancing their comprehension and data reuse.",
                 "img": "/images/indexPage/indexSolution/sec02_slide_01.jpg"
             },
             {
                 "path": "/solution/motion",
                 "title": "Motion Simulation",
-                "context": "Interference/collision may be recognized in advance before prototyping by outlinin the motions of the real product, and it can be used as a reference manual when executed by unckilled personnel.",
+                "context": "Interference/collision may be recognized in advance before prototyping by outlining\nthe motions of the real product, and it can be used as a reference manual when\nexecuted by unckilled personnel.",
                 "img": "/images/indexPage/indexSolution/sec02_slide_02.gif"
             },
             {
                 "path": "/solution/virtual",
                 "title": "Virtual Reality Contents",
-                "context": "VR contents developed by redefining the motions associated with the conroller in virtual reality by the defined product use procedures can be used as virtual training and promotional materials for employees.",
+                "context": "VR contents developed by redefining the motions associated with the controller in\nvirtual reality by the defined product use procedures can be used as virtual training\nand promotional materials for employees.",
                 "img": "/images/indexPage/indexSolution/sec02_slide_03.jpg"
             },
             {
                 "path": "/solution/sys",
                 "title": "System Engineering",
-                "context": "System analysis and visualization allow users to derive the optimal input/output values they want and create user-random scenarios by enabling control during simulation.",
+                "context": "System analysis and visualization allow users to derive the optimal input/output\nvalues they want and create user-random scenarios by enabling control during\nsimulation.",
                 "img": "/images/indexPage/indexSolution/sec02_slide_04.jpg"
             },
             {
                 "path": "/solution/ai",
                 "title": "AI Solution",
-                "context": "It is designed to predict complex outcomes based on real-time data by utilizing advanced technologies such as deep learning-based ROM and PINN.",
+                "context": "It is designed to predict complex outcomes based on real-time data by utilizing\nadvanced technologies such as deep learning-based ROM and PINN.",
                 "img": "/images/indexPage/indexSolution/sec02_slide_05_eng.png"
             }
         ]

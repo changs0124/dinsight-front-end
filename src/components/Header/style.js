@@ -37,6 +37,22 @@ export const container = css`
     }
 `;
 
+export const imgBox = (ratio) => css`
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    aspect-ratio: ${ratio};
+    overflow: hidden;
+
+    & > img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+`;
+
 export const menuBox = css`
     box-sizing: border-box;
     display: flex;
@@ -83,7 +99,6 @@ export const subMenuContainer = css`
         box-sizing: border-box;
         border-bottom: 1px solid transparent;
         padding-bottom: 3px;
-
         color: #ffffff;
         font-size: 18px;
         font-weight: 500;
@@ -130,7 +145,6 @@ export const lanBox = (lan, isOpen) => css`
         ${media.mobile} {
             display: flex;
             margin-left: 15px;
-
             color: ${isOpen ? "#0382f1" : "#000000"};
             font-size: 40px;
             animation: ${fadeIn} 0.3s ease forwards;
@@ -140,7 +154,6 @@ export const lanBox = (lan, isOpen) => css`
         ${media.mobileLandscape} {
             display: flex;
             margin-left: 15px;
-
             color: ${isOpen ? "#0382f1" : "#000000"};
             font-size: 40px;
             animation: ${fadeIn} 0.3s ease forwards;

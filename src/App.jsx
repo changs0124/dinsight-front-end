@@ -28,11 +28,12 @@ function App() {
         <>
             <Global styles={reset} />
             <Routes>
-                <Route path="/company" element={<CompanyPage />}>
-                    <Route index element={<Company />} />
+                <Route path="/company/*" element={<CompanyPage />}>
+                    <Route index element={<Navigate to="/company/info" replace />} />
+                    <Route path="info" element={<Company />} />
                     <Route path="history" element={<History />} />
                     <Route path="direction" element={<Direction />} />
-                    <Route path="*" element={<Navigate to="/compay" replace />} />
+                    <Route path="*" element={<Navigate to="/compay/info" replace />} />
                 </Route>
                 <Route path="/solution/*" element={<SolutionPage />}>
                     <Route index element={<Navigate to="/solution/3dmodel" replace />} />

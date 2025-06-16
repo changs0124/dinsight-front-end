@@ -1,24 +1,38 @@
 {
+    "logo": {
+        "mobile": [
+            {
+                "path": "/images/header/logo4_360.png",
+                "ratio": "11 / 5"
+            }
+        ],
+        "desktop": [
+            {
+                "path": "/images/header/logo4.png",
+                "ratio": "125 / 57"
+            }
+        ]
+    },
     "header": [
         {
-            "path": "/company",
+            "path": "/company/info",
             "title": "회사소개",
             "img": "/images/commonPage/banner-bg.jpg",
-            "submenu": [
+            "menu": [
                 {
-                    "path": "/company",
+                    "path": "/company/info",
                     "title": "회사소개",
-                    "submenu": []
+                    "menu": []
                 },
                 {
                     "path": "/company/history",
                     "title": "연혁",
-                    "submenu": []
+                    "menu": []
                 },
                 {
                     "path": "/company/direction",
                     "title": "오시는 길",
-                    "submenu": []
+                    "menu": []
                 }
             ]
         },
@@ -30,27 +44,27 @@
                 {
                     "path": "/solution/3dmodel",
                     "title": "3D Modeling",
-                    "submenu": []
+                    "menu": []
                 },
                 {
                     "path": "/solution/motion",
                     "title": "동작 시뮬레이션",
-                    "submenu": []
+                    "menu": []
                 },
                 {
                     "path": "/solution/virtual",
                     "title": "가상현실 컨텐츠",
-                    "submenu": []
+                    "menu": []
                 },
                 {
                     "path": "/solution/sys",
                     "title": "시스템 엔지니어링",
-                    "submenu": []
+                    "menu": []
                 },
                 {
                     "path": "/solution/ai",
                     "title": "AI 솔루션",
-                    "submenu": [
+                    "menu": [
                         {
                             "path": "/solution/ai",
                             "title": "AI Solution"
@@ -67,11 +81,11 @@
             "path": "/tech",
             "title": "기술",
             "img": "/images/commonPage/banner-bg03.jpg",
-            "submenu": [
+            "menu": [
                 {
                     "path": "/tech/certificate",
                     "title": "특허 및 인증",
-                    "submenu": []
+                    "menu": []
                 }
             ]
         },
@@ -79,11 +93,11 @@
             "path": "/business",
             "title": "사업소개",
             "img": "/images/commonPage/banner-bg04.jpg",
-            "submenu": [
+            "menu": [
                 {
                     "path": "/business/performance",
                     "title": "수행 사업",
-                    "submenu": []
+                    "menu": []
                 }
             ]
         },
@@ -91,16 +105,16 @@
             "path": "/support",
             "title": "지원",
             "img": "/images/commonPage/banner-bg05.jpg",
-            "submenu": [
+            "menu": [
                 {
                     "path": "/support/resource",
                     "title": "자료실",
-                    "submenu": []
+                    "menu": []
                 },
                 {
                     "path": "/support/contact",
                     "title": "문의",
-                    "submenu": []
+                    "menu": []
                 }
             ]
         }

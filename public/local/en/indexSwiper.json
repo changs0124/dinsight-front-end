@@ -1,6 +1,12 @@
 {
     "indexSwiper": {
         "title": "Customized solutions for innovative growth",
-        "subtitle": "We provide solutions such as system engineering, shape analysis, and cost reduction based on digital twin and AI technology"
+        "subtitle": "We provide solutions such as system engineering, shape analysis, and cost reduction\nbased on digital twin and AI technology",
+        "img": [
+            "/images/indexPage/indexSwiper/main-slide01.jpg",
+            "/images/indexPage/indexSwiper/main-slide02.jpg",
+            "/images/indexPage/indexSwiper/main-slide03.jpg",
+            "/images/indexPage/indexSwiper/main-slide04.jpg"
+        ]
     }
 }

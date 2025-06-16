@@ -66,20 +66,27 @@ function Header() {
     return (
         <div css={s.layout(showShadow)}>
             <div css={s.container}>
-                <div onClick={() => window.location.href = "/"}>
-                    <picture>
-                        <source srcSet="/images/header/logo4_360.png" media="(max-width: 1024px)" />
-                        <source srcSet="/images/header/logo4_770.png" media="(max-width: 640)" />
-                        <img src="/images/header/logo4.png" />
-                    </picture>
-                </div>
+                {
+                    window.matchMedia("(max-width: 640px)").matches
+                        ?
+                        t("logo.mobile", { returnObjects: true })?.map((img, idx) => (
+                            <div key={idx} css={s.imgBox(img.ratio)} onClick={() => window.location.href = "/"}>
+                                <img src={img.path} />
+                            </div>
+                        ))
+                        :
+                        t("logo.desktop", { returnObjects: true })?.map((img, idx) => (
+                            <div key={idx} css={s.imgBox(img.ratio)} onClick={() => window.location.href = "/"}>
+                                <img src={img.path} />
+                            </div>
+                        ))
+                }
                 <div css={s.menuBox}>
                     {
                         t("header", { returnObjects: true })?.map((menu, idx) => (
                             <p key={idx} onClick={() => window.location.href = menu.path} onMouseOver={hadnleMouseOver}>{menu.title}</p>
                         ))
                     }
-
                 </div>
                 <div css={s.lanBox(localStorage.getItem("i18nextLng"), isOpen)}>
                     <button onClick={() => handleChangeLanguageOnClick("ko")}>KOR</button>
@@ -93,14 +100,14 @@ function Header() {
                 selectedHeader !== "" &&
                 <div css={s.subMenuContainer} onMouseLeave={handleMouseLeave}>
                     {
-                        (t("header", { returnObjects: true }).find(menu => menu.title === selectedHeader) ?? {}).submenu?.map((menu, idx) => (
+                        (t("header", { returnObjects: true }).find(menu => menu.title === selectedHeader) ?? {}).menu?.map((menu, idx) => (
                             <p key={idx} onClick={() => window.location.href = menu.path}>{menu.title}</p>
                         ))
                     }
                 </div>
             }{
                 isOpen &&
-                <TopBar ani={ani}/>
+                <TopBar ani={ani} />
             }
         </div>
     );

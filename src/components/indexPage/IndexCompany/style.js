@@ -42,8 +42,9 @@ export const header = css`
         box-sizing: border-box;
         display: flex;
         flex-wrap: wrap;
-        width: 56%;
+        width: 100%;
         font-size: 24px;
+        white-space: pre-line;
     }
 
     ${media.mobile} {
@@ -103,7 +104,7 @@ export const companyBox = (on, off) => css`
     border-radius: 30px;
     padding: 55px;
     width: 40%;
-    aspect-ratio: 581 / 551;
+    aspect-ratio: 581 / 558;
     box-shadow: 0 4px 10px #dbdbdb;
     transition: border-color 0.8s ease;
     animation: ${moveToLeft} 1s forwards;
@@ -199,7 +200,7 @@ export const companyBox = (on, off) => css`
 export const ectBox = css`
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(2, calc(50% - 10px));
+    grid-template-columns: repeat(2, 1fr);
     width: 55%;
     gap: 20px;
 
@@ -258,9 +259,9 @@ export const ectItem = (on, off) => css`
         cursor: pointer;
     }
 
-    &:hover {
+    :hover {
        border-color: #007bff;
-        
+
         & > div {
             background-image: url(${on});
         }

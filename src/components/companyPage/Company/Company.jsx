@@ -67,10 +67,17 @@ function Company() {
             </div>
             <div css={s.ideologyBox}>
                 <h2>{tCompany("companyPage.ideology.title")}</h2>
-                <picture>
-                    <source srcSet="/images/companyPage/company-img03-360_eng.png" media="(max-width: 430px)" />
-                    <img src={tCompany("companyPage.ideology.img")} alt="" />
-                </picture>
+                {
+                    window.matchMedia("(max-width: 640px)").matches
+                        ?
+                        tCompany("companyPage.ideology.img.mobile", { returnObjects: true })?.map((img, idx) => (
+                            <img key={idx} css={s.imgItem(img.ratio)} src={img.path} />
+                        ))
+                        :
+                        tCompany("companyPage.ideology.img.desktop", { returnObjects: true })?.map((img, idx) => (
+                            <img key={idx} css={s.imgItem(img.ratio)} src={img.path} />
+                        ))
+                }
             </div>
         </div>
     );

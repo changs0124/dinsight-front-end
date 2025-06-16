@@ -47,10 +47,11 @@ export const container = css`
         align-items: center;
         text-align: center;
         margin-bottom: 45px;
-        width: 50%;
+        width: 100%;
         line-height: 45px;
         color: #ffffff;
         font-size: 24px;
+        white-space: pre-line;
     }
 
     ${media.mobile} {
